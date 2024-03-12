@@ -1,7 +1,7 @@
 title: Chinmaya Andukuri
 tagline: Student at Stanford University
 url: http://scandukuri.github.io
-baseurl: "http://scandukuri.github.io"
+baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
 
@@ -16,7 +16,7 @@ sass:
 author:
   name: Chinmaya Andukuri
   url: http://scandukuri.github.io
-  email: fred.hohman@gmail.com
+  email: andukuri@stanford.edu
 
 markdown: kramdown
 highlighter: rouge

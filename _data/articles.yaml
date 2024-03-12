@@ -1,153 +1,170 @@
-# feature-parametric-order: 1000 = inf
+# # feature-parametric-order: 1000 = inf
 
-- title: "Menstrual Cycle Length and Variability: A Visual Explanation"
+# - title: "Menstrual Cycle Length and Variability: A Visual Explanation"
+#   authors:
+#     - Samantha Robertson
+#     - Halden Lin
+#     - Chinmaya Andukuri
+#   description: "Visualizing the Apple Women's Health Study"
+#   month: "Sept."
+#   year: 2023
+#   url: https://awhs-updates.hsph.harvard.edu/cycle-length-variability/
+#   image: /images/featured/awhs.png
+#   feature-title: "Menstrual Cycle Length and Variability: A Visual Explanation"
+#   feature-description: Visualizing the Apple Women's Health Study
+#   featured: true
+#   parametric: false
+#   feature-parametric-order: 1000
+
+# - title: Awesome Mathematical Notation Design
+#   authors:
+#     - Chinmaya Andukuri
+#   description: List of links of techniques to help augment mathematical notation
+#   month: "June"
+#   year: 2022
+#   url: https://scandukuri.github.io/awesome-mathematical-notation-design/
+#   featured: false
+#   parametric: false
+#   feature-parametric-order: 1000
+
+# - title: "Apple Machine Learning Research Articles"
+#   description: "Interactively explore advancements in machine learning research at Apple"
+#   image: /images/featured/apple.png
+#   year: "Present — May 2021"
+#   feature-title: Machine Learning Research Articles
+#   feature-description: Interactively explore advancements in machine learning research at Apple
+#   feature-order: 1
+#   url: https://machinelearning.apple.com/research?page=1&type=article
+#   featured: true
+#   parametric-issue: false
+#   parametric: false
+#   feature-parametric-order: 1000
+#   apple: true
+
+- title: "printllama"
   authors:
-    - Samantha Robertson
-    - Halden Lin
     - Chinmaya Andukuri
-  description: "Visualizing the Apple Women's Health Study"
-  month: "Sept."
-  year: 2023
-  url: https://awhs-updates.hsph.harvard.edu/cycle-length-variability/
-  image: /images/featured/awhs.png
-  feature-title: "Menstrual Cycle Length and Variability: A Visual Explanation"
-  feature-description: Visualizing the Apple Women's Health Study
-  featured: true
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: Awesome Mathematical Notation Design
-  authors:
-    - Chinmaya Andukuri
-  description: List of links of techniques to help augment mathematical notation
-  month: "June"
-  year: 2022
-  url: https://scandukuri.github.io/awesome-mathematical-notation-design/
-  featured: false
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: "Apple Machine Learning Research Articles"
-  description: "Interactively explore advancements in machine learning research at Apple"
-  image: /images/featured/apple.png
-  year: "Present — May 2021"
-  feature-title: Machine Learning Research Articles
-  feature-description: Interactively explore advancements in machine learning research at Apple
-  feature-order: 1
-  url: https://machinelearning.apple.com/research?page=1&type=article
-  featured: true
-  parametric-issue: false
-  parametric: false
-  feature-parametric-order: 1000
-  apple: true
-
-- title: "Parametric Press, Issue 02: The Climate Issue"
-  authors:
-    - Matthew Conlen
-    - Chinmaya Andukuri
-    - Sara Stalla
-    - Andrew Sass
-  description: "Interactively analyze our climate’s past, present, and future"
-  month: "Oct"
-  year: "2020"
+    - Jan-Philipp Fränken
+  description: "Investigating language models' ability to patch buggy code with the help of print statements."
+  month: "Jan."
+  year: "2024"
   # year-extra: "Dec. 2018"
-  url: https://parametric.press/issue-02/
-  code: https://github.com/ParametricPress
-  image: /images/featured/parametric-press-issue-02.png
-  feature-title: "Parametric Press: Issue 02"
-  feature-description: "Interactively analyze and learn about our climate’s past, present, and future"
+  #url: https://huggingface.co/datasets/scandukuri/humaneval-patch
+  code: https://github.com/janphilippfranken/printllama
+  image: /images/projects/printllama/printllama-results.png
+  feature-title: "printllama"
+  feature-description: "Investigating language models' ability to patch buggy code with the help of print statements."
   feature-order: 2
-  featured: false
+  featured: true
+  unpublished: true
   parametric-issue: true
   parametric-issue-number: 2
   parametric: false
   feature-parametric-order: 1000
 
-- title: "Parametric Press, Issue 01: Science + Society"
+- title: "manipulativeLMs"
   authors:
-    - Matthew Conlen
     - Chinmaya Andukuri
-    - Sara Stalla
-    - Victoria Uren
-    - Andrew Sass
-  description: "Examine scientific and technological phenomena that stand to shape society at large"
-  month: "May"
-  year: "2019"
+  description: "Studying manipulation and social reasoning in language models."
+  month: "Dec."
+  year: "2023"
   # year-extra: "Dec. 2018"
-  url: https://parametric.press/issue-01/
-  code: https://github.com/ParametricPress
-  image: /images/featured/parametric-press-issue-01.png
-  award: "Top of Hacker News, twice"
-  feature-title: "Parametric Press: Issue 01"
-  feature-description: "Examine scientific and technological phenomena that stand to shape society at large"
+  url: https://scandukuri.github.io/independent-research/normbank
+  code: https://github.com/scandukuri/manipulativeLMs
+  image: /images/projects/manipulativeLMs/manipulativeLMs-sidebyside.png
+  #award: "Top of Hacker News, twice"
+  feature-title: "manipulativeLMs"
+  feature-description: "Studying manipulation and social reasoning in language models."
   feature-order: 3
-  featured: false
+  unpublished: true
+  featured: true
   parametric-issue: true
   parametric-issue-number: 1
   parametric: false
   feature-parametric-order: 1000
 
-- title: Blueberry Pancakes
+- title: "ast-bugfactory"
   authors:
-    - Caleb Robinson
     - Chinmaya Andukuri
-  description: A toy algorithms problem
-  month: "Nov."
-  year: 2018
-  url: https://idyll.pub/post/blueberry-pancakes-28b1a2e1a8986c44ac091f08
-  image: /images/featured/blueberry-pancakes.png
-  feature-title: Blueberry Pancakes
-  feature-description: A breakfast-themed toy algorithms problem
-  code: https://github.com/fredhohman/blueberry-pancakes
-  featured: false
+  description: "Using abstract syntax trees to programmatically generate buggy code."
+  month: "Dec."
+  year: "2023"
+  # year-extra: "Dec. 2018"
+  #url: https://scandukuri.github.io/independent-research/normbank
+  code: https://github.com/scandukuri/ast-bugfactory
+  image: /images/projects/ast-bugfactory/social-preview.png
+  #award: "Top of Hacker News, twice"
+  feature-title: "ast-bugfactory"
+  feature-description: "Using abstract syntax trees to programmatically generate buggy code."
+  feature-order: 3
+  unpublished: true
+  featured: true
+  parametric-issue: true
+  parametric-issue-number: 1
   parametric: false
   feature-parametric-order: 1000
 
-- title: "The Beginner's Guide to Dimensionality Reduction"
-  authors: 
-    - Matthew Conlen
-    - Chinmaya Andukuri
-  description: "Explore the methods data scientists use to visualize high-dimensional data"
-  month: July
-  year: 2018
-  url: https://idyll.pub/post/dimensionality-reduction-293e465c2a3443e8941b016d
-  award: VISxAI Best Paper, Honorable Mention
-  image: /images/featured/dimensionality-reduction.png
-  feature-title: Dimensionality Reduction
-  feature-description: "Explore the methods data scientists use to visualize high-dimensional data"
-  code: https://github.com/mathisonian/dimensionality-reduction
-  slides: /slides/18-dr-visxai-slides.pdf
-  feature-order: 4
-  featured: false
-  parametric: false
-  feature-parametric-order: 1000
+# - title: Blueberry Pancakes
+#   authors:
+#     - Caleb Robinson
+#     - Chinmaya Andukuri
+#   description: A toy algorithms problem
+#   month: "Nov."
+#   year: 2018
+#   url: https://idyll.pub/post/blueberry-pancakes-28b1a2e1a8986c44ac091f08
+#   image: /images/featured/blueberry-pancakes.png
+#   feature-title: Blueberry Pancakes
+#   feature-description: A breakfast-themed toy algorithms problem
+#   code: https://github.com/fredhohman/blueberry-pancakes
+#   featured: false
+#   parametric: false
+#   feature-parametric-order: 1000
 
-- title: The Math of Card Shuffling
-  authors:
-    - Chinmaya Andukuri
-  description: "Riffling from factory order to complete randomness"
-  month: June
-  year: 2018
-  url: https://scandukuri.github.io/card-shuffling 
-  award: Top of Hacker News, twice
-  image: /images/featured/card-shuffling.png
-  feature-title: The Math of Card Shuffling
-  feature-description: Riffling from factory order to complete randomness
-  code: https://github.com/fredhohman/card-shuffling
-  featured: false
-  parametric: false
-  feature-parametric-order: 1000
+# - title: "The Beginner's Guide to Dimensionality Reduction"
+#   authors: 
+#     - Matthew Conlen
+#     - Chinmaya Andukuri
+#   description: "Explore the methods data scientists use to visualize high-dimensional data"
+#   month: July
+#   year: 2018
+#   url: https://idyll.pub/post/dimensionality-reduction-293e465c2a3443e8941b016d
+#   award: VISxAI Best Paper, Honorable Mention
+#   image: /images/featured/dimensionality-reduction.png
+#   feature-title: Dimensionality Reduction
+#   feature-description: "Explore the methods data scientists use to visualize high-dimensional data"
+#   code: https://github.com/mathisonian/dimensionality-reduction
+#   slides: /slides/18-dr-visxai-slides.pdf
+#   feature-order: 4
+#   featured: false
+#   parametric: false
+#   feature-parametric-order: 1000
 
-- title: A Viz of Ice and Fire
-  authors:
-    - Chinmaya Andukuri
-    - Sandeep Soni
-    - Ian Stewart
-    - John Stasko
-  description: "Exploring and visualizing Game of Thrones using color and dialogue"
-  month: "Oct."
-  year: 2017
-  url: https://scandukuri.github.io/a-viz-of-ice-and-fire/
-  code: https://github.com/fredhohman/a-viz-of-ice-and-fire
-  parametric: false
-  feature-parametric-order: 1000
+# - title: The Math of Card Shuffling
+#   authors:
+#     - Chinmaya Andukuri
+#   description: "Riffling from factory order to complete randomness"
+#   month: June
+#   year: 2018
+#   url: https://scandukuri.github.io/card-shuffling 
+#   award: Top of Hacker News, twice
+#   image: /images/featured/card-shuffling.png
+#   feature-title: The Math of Card Shuffling
+#   feature-description: Riffling from factory order to complete randomness
+#   code: https://github.com/fredhohman/card-shuffling
+#   featured: false
+#   parametric: false
+#   feature-parametric-order: 1000
+
+# - title: A Viz of Ice and Fire
+#   authors:
+#     - Chinmaya Andukuri
+#     - Sandeep Soni
+#     - Ian Stewart
+#     - John Stasko
+#   description: "Exploring and visualizing Game of Thrones using color and dialogue"
+#   month: "Oct."
+#   year: 2017
+#   url: https://scandukuri.github.io/a-viz-of-ice-and-fire/
+#   code: https://github.com/fredhohman/a-viz-of-ice-and-fire
+#   parametric: false
+#   feature-parametric-order: 1000
