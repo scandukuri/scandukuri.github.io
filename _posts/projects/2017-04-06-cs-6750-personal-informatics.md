@@ -280,7 +280,7 @@ Our group identified a few key areas to improve on for future work, including th
 [hci]: http://www.wilcox.gatech.edu/6750/ "Georgia Tech' HCI Class"
 [wizardofoz]: https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment "Wizard of Oz Experiments"
 
-[fred]: http://fredhohman.com "Fred Hohman"
+[fred]: http://fredhohman.com "Chinmaya Andukuri"
 [hayley]: http://www.hievans.com/ "Hayley Evans"
 [marissa]: www.prism.gatech.edu/~mgonzales9/ "Marissa Gonzales"
 [arjun]: http://arjun010.github.io/ "Arjun Srinivasan"

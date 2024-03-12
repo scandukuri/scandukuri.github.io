@@ -6,7 +6,7 @@ id: ie
 title: Interactive Classification for Deep Learning Interpretation
 authors:
     - Ángel Alexander Cabrera
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Jason Lin
     - Duen Horng (Polo) Chau
 venue: Demo, Conference on Computer Vision and Pattern Recognition

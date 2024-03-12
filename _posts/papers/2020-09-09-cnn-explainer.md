@@ -10,7 +10,7 @@ authors:
   - Omar Shaikh 
   - Haekyu Park
   - Nilaksh Das
-  - Fred Hohman
+  - Chinmaya Andukuri
   - Minsuk Kahng
   - Duen Horng (Polo) Chau
 venue: IEEE Transactions on Visualization and Computer Graphics
@@ -24,7 +24,7 @@ code: https://github.com/poloclub/cnn-explainer
 demo: https://poloclub.github.io/cnn-explainer/
 recording: https://www.youtube.com/watch?v=M-pUfWMjXhQ&feature=youtu.be&ab_channel=IEEEVisConference2020
 highlight: Top of Github Trending, Top 4 TVCG Papers invited to SIGGRAPH
-type: journal
+type: journalfake
 figure: /images/papers/20-cnnexplainer-tvcg.png
 selected: false
 doi: "10.1109/TVCG.2020.3030418"

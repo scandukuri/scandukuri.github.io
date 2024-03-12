@@ -6,11 +6,11 @@ id: playground
 title: "3D Exploration of Graph Layers via Vertex Cloning"
 authors:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Duen Horng (Polo) Chau
 equal-contribution:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
 venue: Poster, IEEE Conference on Visual Analytics Science and Technology
 venue-shorthand: VAST
 location: Phoenix, AZ, USA

@@ -6,7 +6,7 @@ permalink: papers/designing-data
 title: "Designing Data: Proactive Data Collection and Iteration for Machine Learning Using Reflexive Planning, Monitoring, and Density Estimation"
 authors: 
   - Aspen Hopkins
-  - Fred Hohman
+  - Chinmaya Andukuri
   - Luca Zappella
   - Xavier Suau
   - Dominik Moritz

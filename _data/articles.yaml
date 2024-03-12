@@ -4,7 +4,7 @@
   authors:
     - Samantha Robertson
     - Halden Lin
-    - Fred Hohman
+    - Chinmaya Andukuri
   description: "Visualizing the Apple Women's Health Study"
   month: "Sept."
   year: 2023
@@ -18,7 +18,7 @@
 
 - title: Awesome Mathematical Notation Design
   authors:
-    - Fred Hohman
+    - Chinmaya Andukuri
   description: List of links of techniques to help augment mathematical notation
   month: "June"
   year: 2022
@@ -44,7 +44,7 @@
 - title: "Parametric Press, Issue 02: The Climate Issue"
   authors:
     - Matthew Conlen
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Sara Stalla
     - Andrew Sass
   description: "Interactively analyze our climate’s past, present, and future"
@@ -66,7 +66,7 @@
 - title: "Parametric Press, Issue 01: Science + Society"
   authors:
     - Matthew Conlen
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Sara Stalla
     - Victoria Uren
     - Andrew Sass
@@ -90,7 +90,7 @@
 - title: Blueberry Pancakes
   authors:
     - Caleb Robinson
-    - Fred Hohman
+    - Chinmaya Andukuri
   description: A toy algorithms problem
   month: "Nov."
   year: 2018
@@ -106,7 +106,7 @@
 - title: "The Beginner's Guide to Dimensionality Reduction"
   authors: 
     - Matthew Conlen
-    - Fred Hohman
+    - Chinmaya Andukuri
   description: "Explore the methods data scientists use to visualize high-dimensional data"
   month: July
   year: 2018
@@ -124,7 +124,7 @@
 
 - title: The Math of Card Shuffling
   authors:
-    - Fred Hohman
+    - Chinmaya Andukuri
   description: "Riffling from factory order to complete randomness"
   month: June
   year: 2018
@@ -140,7 +140,7 @@
 
 - title: A Viz of Ice and Fire
   authors:
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Sandeep Soni
     - Ian Stewart
     - John Stasko

@@ -1,42 +1,42 @@
-- degree: "Ph.D. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  advisor: Duen Horng (Polo) Chau
-  co-advisor: Alex Endert
-  years: "Dec. 2020 —"
-  years-extra: "Aug. 2015"
-  thesis: "Interactive Scalable Interfaces for Machine Learning Interpretability"
-  thesis-video: https://youtu.be/TNH8RqyNfmo
-  thesis-link: ../dissertation/
-  thesis-pdf: ../papers/fred-hohman-thesis.pdf
-  committee:
-    - Duen Horng (Polo) Chau
-    - Alex Endert
-    - Chao Zhang
-    - Nathan Hodas
-    - Scott Davidoff
-    - Steven Drucker
-  institution-url: https://www.gatech.edu/
-  awards:
-    - ACM SIGCHI Outstanding Dissertation Award
-    - Georgia Tech College of Computing Dissertation Award
+- degree: "M.S. in Computer Science"
+  institution: Stanford University
+  location: "Stanford, CA"
+  # advisor: Duen Horng (Polo) Chau
+  # co-advisor: Alex Endert
+  years: "Mar. 2023 —"
+  years-extra: ""
+  # thesis: "Interactive Scalable Interfaces for Machine Learning Interpretability"
+  # thesis-video: https://youtu.be/TNH8RqyNfmo
+  # thesis-link: ../dissertation/
+  # thesis-pdf: ../papers/fred-hohman-thesis.pdf
+  # committee:
+  #   - Duen Horng (Polo) Chau
+  #   - Alex Endert
+  #   - Chao Zhang
+  #   - Nathan Hodas
+  #   - Scott Davidoff
+  #   - Steven Drucker
+  institution-url: https://www.stanford.edu/
+  # awards:
+  #   - ACM SIGCHI Outstanding Dissertation Award
+  #   - Georgia Tech College of Computing Dissertation Award
 
-- degree: "M.S. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  years: May 2018
+- degree: "B.S. in Mathematical and Computational Science"
+  institution: Stanford University
+  location: "Stanford, CA"
+  years: "Sep. 2019 -"
+  years-extra: "Mar. 2023"
   institution-url: https://www.gatech.edu/
   description:
-    - "GPA: 4.00/4.00"
-
-- degree: "B.S. in Mathematics, B.S. in Physics"
-  years: "May 2015 —"
-  years-extra: "Aug. 2011"
-  institution: University of Georgia
-  location: "Athens, GA"
-  thesis: "3D Printing the Trefoil Knot and its Pages"
-  thesis-link: ../projects/3d-printing-the-trefoil-knot-and-its-pages/
-  thesis-pdf: ../papers/fred-hohman-undergrad-thesis.pdf
-  description: 
-    - "Overall GPA: 3.84/4.00, Magna Cum Laude, Area of Emphasis in Applied Mathematics"
-  institution-url: https://www.uga.edu/
+    - "GPA: 3.97/4.00"
+# - degree: "B.S. in Mathematics, B.S. in Physics"
+#   years: "May 2015 —"
+#   years-extra: "Aug. 2011"
+#   institution: University of Georgia
+#   location: "Athens, GA"
+#   thesis: "3D Printing the Trefoil Knot and its Pages"
+#   thesis-link: ../projects/3d-printing-the-trefoil-knot-and-its-pages/
+#   thesis-pdf: ../papers/fred-hohman-undergrad-thesis.pdf
+#   description: 
+#     - "Overall GPA: 3.84/4.00, Magna Cum Laude, Area of Emphasis in Applied Mathematics"
+#   institution-url: https://www.uga.edu/

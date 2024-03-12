@@ -1,32 +1,32 @@
 - id: email
-  description: "fredhohman@apple.com"
+  description: "andukuri@stanford.edu"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:fredhohman@apple.com"
+  url: "mailto:andukuri@stanford.edu"
   on-homepage: true
   cv-group: 1
 
 - id: twitter
-  description: "@fredhohman"
+  description: "@chinmaya_mohan"
   color: "#1da1f2"
   class: "fab fa-twitter icon"
-  url: https://twitter.com/fredhohman
+  url: https://twitter.com/chinmaya_mohan
   on-homepage: true
   cv-group: 2
 
 - id: github
-  description: "@fredhohman"
+  description: "@scandukuri"
   color: "#6e5494"
   class: "fab fa-github icon"
-  url: "https://github.com/fredhohman"
+  url: "https://github.com/scandukuri"
   on-homepage: true
   cv-group: 2
 
 - id: linkedin
-  description: "fredhohman"
+  description: "chinmaya-andukuri"
   color: "#0077b5"
   class: "fab fa-linkedin-in icon"
-  url: "http://www.linkedin.com/in/fredhohman"
+  url: "https://www.linkedin.com/in/chinmaya-andukuri-706b45136/"
   on-homepage: true
 
 - id: mastodon
@@ -37,10 +37,10 @@
   on-homepage: true
 
 - id: home
-  description: "fredhohman.com"
+  description: "scandukuri.github.io"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://fredhohman.com"
+  url: "https://scandukuri.github.io"
   on-homepage: false
   cv-group: 1
 
@@ -56,7 +56,7 @@
   description: CV PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "/cv.pdf"
+  url: "/Chinmaya Andukuri - Resume.pdf"
   on-homepage: false
   cv-group: 1
 

@@ -5,7 +5,7 @@ permalink: papers/compression
 id: compression
 title: "Model Compression in Practice: Lessons Learned from Practitioners Creating On-device Machine Learning Experiences"
 authors: 
-  - Fred Hohman
+  - Chinmaya Andukuri
   - Mary Beth Kery
   - Donghao Ren
   - Dominik Moritz

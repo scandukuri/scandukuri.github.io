@@ -23,7 +23,7 @@ The last time I spoke with Dr. Taalman she mentioned that another employee at Ma
 
 Back in December, well-known 3D printing website 3DPrint.com [wrote about my project][3dprint-1] while I was still working on it. However, just this past weekend 3DPrint.com was kind enough to [write a second, follow-up piece][3dprint-2] about the finished project. 
 
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/My3DPrinting">@My3DPrinting</a> Thanks for the shout-out!</p>&mdash; Fred Hohman (@fredhohman) <a href="https://twitter.com/fredhohman/status/643568945576939520">September 14, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/My3DPrinting">@My3DPrinting</a> Thanks for the shout-out!</p>&mdash; Chinmaya Andukuri (@fredhohman) <a href="https://twitter.com/fredhohman/status/643568945576939520">September 14, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 If you find 3D printing, mathematical art, or topology interesting I suggest you go read it!
 

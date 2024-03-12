@@ -41,7 +41,7 @@ Our code is easily scalable to include and remove different textual categories, 
 * [Github Repository][github]
 * [Georgia Tech's CS 7450 InfoVis Class][infovis]
 
-[fred]: http://fredhohman.com "Fred Hohman"
+[fred]: http://fredhohman.com "Chinmaya Andukuri"
 [ian]: http://ianbstewart.github.io/ "Ian Stewart"
 [sandeep]: http://sandeepsoni.github.io "Sandeep Soni"
 

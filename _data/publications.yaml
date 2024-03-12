@@ -1,7 +1,7 @@
 - id: chameleon
   title: "Understanding and Visualizing Data Iteration in Machine Learning"
   authors: 
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Kanit Wongsuphasawat
     - Mary Beth Kery
     - Kayur Patel
@@ -19,7 +19,7 @@
   image: /images/featured/chameleon.png
   feature-order: 1
   featured: true
-  selected: true
+  selected: false
   type: conference
   bibtex: |-
 
@@ -37,7 +37,7 @@
     - Mary Beth Kery
     - Donghao Ren
     - Kanit Wongsuphasawat
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Kayur Patel
   venue: "Extended Abstracts on ACM Human Factors in Computing Systems"
   venue-shorthand: CHI
@@ -64,7 +64,7 @@
     - Omar Shaikh 
     - Haekyu Park
     - Nilaksh Das
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Minsuk Kahng
     - Duen Horng (Polo) Chau
   venue: "Extended Abstracts on ACM Human Factors in Computing Systems"
@@ -91,7 +91,7 @@
     - Nilaksh Das
     - Haekyu Park
     - Zijie J. Wang
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Robert Firstman
     - Emily Rogers
     - Duen Horng (Polo) Chau
@@ -115,7 +115,7 @@
 - id: summit
   title: "Summit: Scaling Deep Learning Interpretability by Visualizing Activation and Attribution Summarizations"
   authors: 
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Haekyu Park
     - Caleb Robinson
     - Duen Horng (Polo) Chau
@@ -135,8 +135,8 @@
   image: /images/featured/summit.png
   featured: true
   feature-order: 2
-  selected: true
-  type: journal
+  selected: false
+  type: journalfake
   bibtex: |-
 
     @article{hohman2020summit,
@@ -153,7 +153,7 @@
   authors: 
     - Ángel Alexander Cabrera
     - Will Epperson 
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Minsuk Kahng
     - Jamie Morgenstern 
     - Duen Horng (Polo) Chau
@@ -168,7 +168,7 @@
   recording: https://vimeo.com/368702211
   code: https://github.com/poloclub/FairVis
   blog: https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f
-  selected: true
+  selected: false
   type: conference
   bibtex: |-
 
@@ -184,11 +184,11 @@
 - id: telegam
   title: "TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning"
   authors: 
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Arjun Srinivasan
     - Steven Drucker
   equal-contribution:
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Arjun Srinivasan
   venue: IEEE Visualization Conference
   venue-shorthand: VIS
@@ -218,7 +218,7 @@
   title: "ElectroLens: Understanding Atomistic Simulations through Spatially-resolved Visualization of High-dimensional Features"
   authors: 
     - Xiangyun Lei
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Duen Horng (Polo) Chau
     - Andrew Medford
   venue: IEEE Visualization Conference
@@ -247,7 +247,7 @@
   title: "Launching the Parametric Press"
   authors:
     - Matthew Conlen 
-    - Fred Hohman
+    - Chinmaya Andukuri
   venue: Visualization for Communication at IEEE VIS
   venue-shorthand: VisComm
   location: Vancouver, Canada
@@ -269,7 +269,7 @@
 - id: gamut
   title: "Gamut: A Design Probe to Understand How Data Scientists Understand Machine Learning Models"
   authors: 
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Andrew Head
     - Rich Caruana
     - Robert DeLine
@@ -290,7 +290,7 @@
   image: /images/featured/gamut.png
   feature-order: 3
   featured: true
-  selected: true
+  selected: false
   type: conference
   bibtex: |-
 
@@ -306,7 +306,7 @@
   title: "Managing Messes in Computational Notebooks"
   authors: 
     - Andrew Head
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Titus Barik
     - Steven Drucker
     - Robert DeLine
@@ -338,7 +338,7 @@
   authors: 
     - Ángel Alexander Cabrera
     - Minsuk Kahng
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Jamie Morgenstern 
     - Duen Horng (Polo) Chau
   venue: Debugging Machine Learning Models Workshop at ICLR
@@ -361,7 +361,7 @@
   title: "NeuralDivergence: Exploring and Understanding Neural Networks by Comparing Activation Distributions"
   authors: 
     - Haekyu Park
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Duen Horng (Polo) Chau
   venue: Poster, IEEE Pacific Visualization Symposium
   venue-shorthand: PacificVis
@@ -388,12 +388,12 @@
   title: "Atlas: Local Graph Exploration in a Global Context"
   authors:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Varun Bezzam
     - Duen Horng (Polo) Chau
   equal-contribution:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
   venue: ACM Conference on Intelligent User Interfaces
   venue-shorthand: IUI
   location: Los Angeles, CA, USA
@@ -423,7 +423,7 @@
   title: "Scalable K-Core Decomposition for Static Graphs Using a Dynamic Graph Data Structure"
   authors:
     - Alok Tripathy
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Duen Horng (Polo) Chau
     - Oded Green
   venue: IEEE International Conference on Big Data
@@ -446,7 +446,7 @@
 - id: deepvis
   title: "Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers"
   authors:
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Minsuk Kahng
     - Robert Pienta
     - Duen Horng (Polo) Chau
@@ -460,8 +460,8 @@
   video: https://youtu.be/TI_sXHt2d8s
   blog: https://medium.com/multiple-views-visualization-research-explained/visualization-in-deep-learning-b29f0ec4f136
   slides: /slides/18-deepvis-tvcg-slides.pdf
-  selected: true
-  type: journal
+  selected: false
+  type: journalfake
   bibtex: |-
 
     @article{hohman2018visual,
@@ -484,7 +484,7 @@
   title: "The Beginner's Guide to Dimensionality Reduction"
   authors: 
     - Matthew Conlen
-    - Fred Hohman
+    - Chinmaya Andukuri
   venue: Workshop on Visualization for AI Explainability at IEEE VIS
   venue-shorthand: VISxAI
   location: Berlin, Germany
@@ -511,7 +511,7 @@
     - Nilaksh Das
     - Madhuri Shanbhogue
     - Shang-Tse Chen
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Siwei Li
     - Li Chen
     - Michael E. Kounavis
@@ -539,7 +539,7 @@
     - Nilaksh Das
     - Madhuri Shanbhogue
     - Shang-Tse Chen
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Siwei Li
     - Li Chen
     - Michael E. Kounavis
@@ -572,12 +572,12 @@
   title: Large Graph Exploration via Subgraph Discovery and Decomposition
   authors:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Varun Bezzam
     - Duen Horng (Polo) Chau
   equal-contribution:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
   venue: arXiv:1808.04414
   year: 2018
   url: /papers/graph-playground 
@@ -596,7 +596,7 @@
   title: Interactive Classification for Deep Learning Interpretation
   authors:
     - Ángel Alexander Cabrera
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Jason Lin
     - Duen Horng (Polo) Chau
   venue: Demo, Conference on Computer Vision and Pattern Recognition
@@ -623,7 +623,7 @@
   title: "VIGOR: Interactive Visual Exploration of Graph Query Results"
   authors: 
     - Robert Pienta
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Alex Endert
     - Acar Tamersoy
     - Kevin Roundy
@@ -638,7 +638,7 @@
   pdf: https://www.cc.gatech.edu/~dchau/papers/17-vast-vigor.pdf
   video: https://www.youtube.com/watch?v=-jeck0yrT_Q&index=3&list=PLM5RAudXfaumbXG2vOk1eFMHY3rkPCRNR
   preview: https://vimeo.com/groups/480818/videos/230830163
-  type: journal
+  type: journalfake
   bibtex: |-
 
     @article{pienta2018vigor,
@@ -653,7 +653,7 @@
   title: A Deep Learning Approach for Population Estimation from Satellite Imagery
   authors:
     - Caleb Robinson
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Bistra Dilkina
   venue: 1st ACM SIGSPATIAL Workshop on Geospatial Humanities
   venue-shorthand: GeoHum.
@@ -683,11 +683,11 @@
   title: "3D Exploration of Graph Layers via Vertex Cloning"
   authors:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Duen Horng (Polo) Chau
   equal-contribution:
     - James Abello
-    - Fred Hohman
+    - Chinmaya Andukuri
   venue: Poster, IEEE Conference on Visual Analytics Science and Technology
   venue-shorthand: VAST
   location: Phoenix, AZ, USA
@@ -710,7 +710,7 @@
 - id: got
   title: "A Viz of Ice and Fire: Exploring Entertainment Video Using Color and Dialogue"
   authors:
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Sandeep Soni
     - Ian Stewart
     - John Stasko
@@ -739,7 +739,7 @@
   title: mHealth Visual Discovery Dashboard
   authors:
     - Dezhi Fang
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Peter Polack
     - Hillol Sarker
     - Minsuk Kahng
@@ -771,7 +771,7 @@
     - Nilaksh Das
     - Madhuri Shanbhogue
     - Shang-Tse Chen
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Li Chen
     - Michael E. Kounavis
     - Duen Horng (Polo) Chau
@@ -794,7 +794,7 @@
   title: Visual Graph Query Construction and Refinement
   authors:
     - Robert Pienta
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Acar Tamersoy
     - Alex Endert
     - Shamkant Navathe
@@ -823,7 +823,7 @@
 - id: shapeshop
   title: "ShapeShop: Towards Understanding Deep Learning Representations via Interactive Experimentation"
   authors:
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Nathan Hodas
     - Duen Horng (Polo) Chau
   venue: "Extended Abstracts on ACM Human Factors in Computing Systems"
@@ -855,7 +855,7 @@
   authors: 
     - Shanon Reckinger
     - Thomas Gibson
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Theresa Morrison
     - Scott Reckinger
     - Mateus Carvalho
@@ -864,7 +864,7 @@
   year: 2019
   url: /projects/mathematics-&-computational-science-reu
   pdf: https://www.witpress.com/Secure/ejournals/papers/CMEM070205f.pdf
-  type: journal
+  type: journalfake
   bibtex: |-
 
     @article{reckinger2019effect,
@@ -882,7 +882,7 @@
   title: Experimental and Numerical Comparison of Oceanic Overflow
   authors: 
     - Thomas Gibson
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Theresa Morrison
     - Shanon Reckinger
     - Scott Reckinger

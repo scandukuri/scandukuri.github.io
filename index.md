@@ -6,10 +6,10 @@ title: Home
 <div id="intro-wrapper" class="l-text">
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/portrait.jpg"></div>
+			<img id="intro-image" src="/images/profile-square.png"></div>
 		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">Hi, I'm Fred Hohman</h1>
-			<div id="intro-subtitle">I'm a Research Scientist at Apple</div>
+			<h1 id="intro-title">Hi, I'm Chinmaya</h1>
+			<div id="intro-subtitle">I'm a student at Stanford University</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -26,16 +26,16 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		I design and develop interactive interfaces to help people <b>understand machine learning models</b> and data-driven systems. Besides building tools, I also create <b>data visualizations</b> and write interactive articles to simply communicate complex ideas.
+		I'm interested in building AI systems that are <b>open, safe</b>, and <b>useful</b> by studying reasoning and problem-solving in language models. Recently, I've been thinking about bootstrapping and self-improvement in language models with <a href="https://cocolab.stanford.edu/ndg"> Noah Goodman</a> and <a href="https://janphilippfranken.github.io/"> Jan-Philipp Fränken</a>.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I received my PhD from Georgia Tech where I worked with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> and <a href="http://va.gatech.edu/endert/">Alex Endert</a>. My dissertation on <a href="/dissertation">interactive interfaces for interpretability</a> won the <i>ACM SIGCHI Outstanding Dissertation Award</i> and was supported by a <i>NASA Space Technology Research Fellowship</i>.
+		I received my B.S. in Mathematical and Computational Science from <img class="intro-logo" style="width: 13px; padding-bottom: 5px;" src="/images/stanford.svg"> Stanford University, where I'm currently working on my M.S. in Computer Science.
 	</div>
-	<div style="height: 1rem"></div>
+	<!-- <div style="height: 1rem"></div>
 	<div>
 		I have collaborated with designers, developers, artists, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab.
-	</div>
+	</div> -->
 </div>
 
 <hr class="l-middle home-hr">

@@ -5,7 +5,7 @@ permalink: papers/shapeshop
 id: shapeshop
 title: "ShapeShop: Towards Understanding Deep Learning Representations via Interactive Experimentation"
 authors:
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Nathan Hodas
     - Duen Horng (Polo) Chau
 venue: "Extended Abstracts on ACM Human Factors in Computing Systems"

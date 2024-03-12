@@ -10,7 +10,7 @@ authors:
   - Rahul Duggal
   - Austin P. Wright
   - Omar Shaikh
-  - Fred Hohman
+  - Chinmaya Andukuri
   - Duen Horng (Polo) Chau
 venue: IEEE Transactions on Visualization and Computer Graphics
 venue-shorthand: TVCG
@@ -26,7 +26,7 @@ feature-description: "Scalable automatic visual summarization of concepts in dee
 featured: false
 selected: false
 highlight: Top 4 TVCG Papers invited to SIGGRAPH
-type: journal
+type: journalfake
 figure: /images/papers/21-neurocartography-vis.png
 doi: "10.1109/TVCG.2021.3114858"
 bibtex: |-

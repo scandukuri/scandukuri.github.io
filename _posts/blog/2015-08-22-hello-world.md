@@ -42,7 +42,7 @@ All the content from the old website has been spruced up and is live right now. 
 
 So take a couple minutes and explore. Feel free to let me know what you think by leaving a comment below, shooting me an email, or tweeting [@fredhohman][twitter]. I'm off to start something new.
 
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Tomorrow is my first day of graduate school at <a href="https://twitter.com/GeorgiaTech">@GeorgiaTech</a> <a href="https://twitter.com/gtcomputing">@gtcomputing</a> &#10;&#10;The path to Dr. Fred begins at 10AM.</p>&mdash; Fred Hohman (@fredhohman) <a href="https://twitter.com/fredhohman/status/633095051741167616">August 17, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Tomorrow is my first day of graduate school at <a href="https://twitter.com/GeorgiaTech">@GeorgiaTech</a> <a href="https://twitter.com/gtcomputing">@gtcomputing</a> &#10;&#10;The path to Dr. Fred begins at 10AM.</p>&mdash; Chinmaya Andukuri (@fredhohman) <a href="https://twitter.com/fredhohman/status/633095051741167616">August 17, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 So hello, Internet. See you around.
 

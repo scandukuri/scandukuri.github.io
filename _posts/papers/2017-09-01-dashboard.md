@@ -6,7 +6,7 @@ id: mhealth
 title: mHealth Visual Discovery Dashboard
 authors:
     - Dezhi Fang
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Peter Polack
     - Hillol Sarker
     - Minsuk Kahng

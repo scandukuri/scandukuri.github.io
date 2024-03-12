@@ -6,7 +6,7 @@ permalink: defense/
 
 ## Thesis Defense
 
-**Fred Hohman**  
+**Chinmaya Andukuri**  
 [https://fredhohman.com/](https://fredhohman.com/)  
 School of Computational Science & Engineering  
 College of Computing  
@@ -56,7 +56,7 @@ This thesis contributes to *information visualization*, *machine learning*, and 
 * CV (PDF): [fredhohman.com/cv.pdf][cv-pdf] -->
 
 ## Bio
-Fred Hohman is a PhD candidate at Georgia Tech's College of Computing.
+Chinmaya Andukuri is a PhD candidate at Georgia Tech's College of Computing.
 
 His research focuses on enabling machine learning interpretability at scale and for everyone, by designing and developing interactive interfaces to help people confidently understand data-driven systems. Besides building tools, he also creates data visualizations and writes interactive articles to simply communicate complex ideas.
 

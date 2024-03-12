@@ -5,7 +5,7 @@ permalink: papers/chameleon
 id: chameleon
 title: "Understanding and Visualizing Data Iteration in Machine Learning"
 authors: 
-  - Fred Hohman
+  - Chinmaya Andukuri
   - Kanit Wongsuphasawat
   - Mary Beth Kery
   - Kayur Patel

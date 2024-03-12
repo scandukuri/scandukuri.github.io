@@ -9,7 +9,7 @@ This summer I'll be an [NSIP Ph.D. intern][nsip] at Pacific Northwest National L
 
 <!--more-->
 
-<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">This summer I&#39;m Washington bound as a PhD intern in the Data Sciences &amp; Analytics group at <a href="https://twitter.com/PNNLab">@PNNLab</a>!</p>&mdash; Fred Hohman (@fredhohman) <a href="https://twitter.com/fredhohman/status/727940899012026369">May 4, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">This summer I&#39;m Washington bound as a PhD intern in the Data Sciences &amp; Analytics group at <a href="https://twitter.com/PNNLab">@PNNLab</a>!</p>&mdash; Chinmaya Andukuri (@fredhohman) <a href="https://twitter.com/fredhohman/status/727940899012026369">May 4, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [PNNL][pnnl] is one of the Department of Energy's Office of Sciences national laboratories whose research specializes in fundamental sciences, national security, energy, and reducing the effects of human activity on the environment[^fn-pnnl-research].
 

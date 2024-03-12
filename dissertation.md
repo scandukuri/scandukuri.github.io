@@ -53,7 +53,7 @@ After motivating and summarizing my dissertation, I reflect back upon my work an
 
 ## Thesis Defense
 
-**Fred Hohman**  
+**Chinmaya Andukuri**  
 College of Computing  
 Georgia Institute of Technology
 
@@ -82,7 +82,7 @@ Steven Drucker - *Microsoft Research*
 * [Slide export animations + demo videos][talk-export]
 
 **Bio (from October 2020)**  
-Fred Hohman is a PhD candidate at Georgia Tech's College of Computing.
+Chinmaya Andukuri is a PhD candidate at Georgia Tech's College of Computing.
 His research focuses on enabling machine learning interpretability at scale and for everyone, by designing and developing interactive interfaces to help people confidently understand data-driven systems. Besides building tools, he also creates data visualizations and writes interactive articles to simply communicate complex ideas.
 
 He has collaborated with designers, developers, and scientists at Apple, Microsoft Research, NASA JPL Human Interfaces, and Pacific Northwest National Lab. He won a NASA PhD Space Technology Research Fellowship, a Microsoft AI for Earth Award for using AI to improve sustainability, and the President's Fellowship for top incoming PhD students. He has also won an ACM CHI 2019 Best Paper award; a KDD 2018 Audience Appreciation Award, Runner-up; an IEEE VIS VISxAI Best Paper, Honorable Mention; and a SIGMOD 2017 Best Demo, Honorable Mention. His work has appeared in popular press, such as the Stack Overflow Blog, Fast Company, and Data Stories. He co-organizes the Workshop on Visualization for AI Explainability (VISxAI) at IEEE VIS. He double majored in mathematics and physics.

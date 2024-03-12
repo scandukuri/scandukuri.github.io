@@ -1,7 +1,7 @@
 {
   "name": "fredhohman.github.io",
   "version": "1.0.0",
-  "description": "Fred Hohman's website.",
+  "description": "Chinmaya Andukuri's website.",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/fredhohman/fredhohman.github.io.git"
   },
-  "author": "Fred Hohman",
+  "author": "Chinmaya Andukuri",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fredhohman/fredhohman.github.io/issues"

@@ -6,7 +6,7 @@ id: neuraldivergence
 title: "NeuralDivergence: Exploring and Understanding Neural Networks by Comparing Activation Distributions"
 authors: 
   - Haekyu Park
-  - Fred Hohman
+  - Chinmaya Andukuri
   - Duen Horng (Polo) Chau
 venue: Poster, IEEE Pacific Visualization Symposium
 venue-shorthand: PacificVis

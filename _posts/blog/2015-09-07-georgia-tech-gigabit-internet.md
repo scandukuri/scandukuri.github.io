@@ -29,7 +29,7 @@ Needless to say, I'm excited to be using gigabit on campus during graduate schoo
 
 Just a few days after my findings, someone I follow on Twitter posted his unusually high LTE download speed, so I decided to boast about GT's speed:
 
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/samsheffer">@samsheffer</a> So this isn&#39;t LTE, but check out my school&#39;s internet: <a href="http://t.co/CFGt0ped0D">pic.twitter.com/CFGt0ped0D</a></p>&mdash; Fred Hohman (@fredhohman) <a href="https://twitter.com/fredhohman/status/632919485482188801">August 16, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/samsheffer">@samsheffer</a> So this isn&#39;t LTE, but check out my school&#39;s internet: <a href="http://t.co/CFGt0ped0D">pic.twitter.com/CFGt0ped0D</a></p>&mdash; Chinmaya Andukuri (@fredhohman) <a href="https://twitter.com/fredhohman/status/632919485482188801">August 16, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [fiber]: https://fiber.google.com/cities/atlanta/ "Google Fiber Atlanta."
 [comcast]: http://arstechnica.com/business/2015/06/comcast-2gbps-fiber-to-launch-in-a-bunch-of-markets-this-month/ "Comcast Gigabit Internet."

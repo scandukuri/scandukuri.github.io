@@ -6,9 +6,9 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Fred Hohman</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Chinmaya Andukuri</a></h1>
 
-<p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>Software Engineer (<span class="cv-vis">Research</span> + <span class="cv-ai">ML</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,13 +30,13 @@ jsarr:
 </div> -->
 
 <div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
+I design and develop <b><span class="cv-vis">experiments and methods</span></b> to investigate how <b><span class="cv-ai">AI systems</span></b> can become better reasoners and help solve human problems. I also build out these AI systems and find ways to evaluate their potential impact on human experiences.
 </div>
 
 <div class="cv-spacer"></div>
 
 <div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
+I have collaborated with researchers, product owners, engineers, and external clients and stakeholders while working at Stanford University, Capital One, and Dataherald.
 </div>
 
 <div class="cv-spacer"></div>
@@ -68,7 +68,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endfor %}
 {:/}
 
-## Industry Research Experience
+## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -83,78 +83,79 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
-
+<!-- 
 ## Honors and Awards
 
 {% for award in site.data.awards %}
 {% include cv/award.html award=award %}
-{% endfor %}
+{% endfor %} -->
 
 ## Publications
+Nothing yet, but stay tuned.
 
-### Selected: Latest & Greatest
+<!-- ### Selected: Latest & Greatest
 
 {% assign selectedBoolForBibtex = true %}
 
 {% assign selected = site.categories.papers | where: 'selected', true %}
 {% for pub in selected %}
 {% include cv/publication.html pub=pub %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ### All Publications -->
 
-{% assign selectedBoolForBibtex = false %}
-
+<!-- {% assign selectedBoolForBibtex = false %} -->
+<!-- 
 ### Journal
 
 {% assign journal = site.categories.papers | where: 'type', "journal" %}
 {% for pub in journal %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
-### Conference
+<!-- ### Conference
 
 {% assign conference = site.categories.papers | where: 'type', "conference" %}
 {% for pub in conference %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
-### Preprint
+<!-- ### Preprint
 
 {% assign preprint = site.categories.papers | where: 'type', "preprint" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
+{% endfor %} -->
+<!-- 
 ### Workshop
 
 {% assign workshop = site.categories.papers | where: 'type', "workshop" %}
 {% for pub in workshop %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
+{% endfor %} -->
+<!-- 
 ### Poster
 
 {% assign poster = site.categories.papers | where: 'type', "poster" %}
 {% for pub in poster %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
+{% endfor %} -->
+<!-- 
 ### Demo
 
 {% assign demo = site.categories.papers | where: 'type', "demo" %}
 {% for pub in demo %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
+{% endfor %} -->
+<!-- 
 ### Miscellaneous
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
-## Talks
+<!-- ## Talks
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}
@@ -165,14 +166,14 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
-{% endfor %}
+{% endfor %} -->
 
 ## Teaching
 
 {% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
-
+<!-- 
 ## Mentoring
 
 {::nomarkdown}
@@ -195,11 +196,11 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endunless %}
 {% endfor %}
 
-<!-- ## Technology Skills
+## Technology Skills
 
 {% for skill in site.data.skills %}
 {% include cv/skill.html skill=skill %}
-{% endfor %} -->
+{% endfor %}
 
 ## Service
 
@@ -232,7 +233,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 {% for design in site.data.designs %}
 {% include cv/design.html design=design %}
-{% endfor %}
+{% endfor %} -->
 
 ## References
 
@@ -243,7 +244,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 <!-- 
 ## Contact
 
-Fred Hohman  
+Chinmaya Andukuri  
 `fredhohman@gatech.edu`  
 CODA Tech Square  
 Georgia Tech  
@@ -260,14 +261,14 @@ Universe
 </span> -->
 
 
-[cv]: {{ site.url }}/cv.pdf "My CV."
+[cv]: {{ site.url }}/Chinmaya Andukuri - Resume.pdf "My CV."
 
 [poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
 [gt]: http://gatech.edu "Georgia Tech"
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 
-[fred]: http://fredhohman.com "Fred Hohman"
+[fred]: http://fredhohman.com "Chinmaya Andukuri"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 [alex]: http://va.gatech.edu/endert/ "Alex Endert"
 
@@ -278,6 +279,6 @@ Universe
 [msr]: https://www.microsoft.com/en-us/research/ "Microsoft Research"
 [msr-hci]: https://www.microsoft.com/en-us/research/group/human-computer-interaction/ "HCI@MSR"
 
-[twitter]: https:/www.twitter.com/fredhohman "@fredhohman"
-[github]: https:/www.github.com/fredhohman "github.com/fredhohman"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"
+[twitter]: https:/www.twitter.com/chinmaya_mohan "@chinmaya_mohan"
+[github]: https:/www.github.com/scandukuri "github.com/scandukuri"
+<!-- [nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship" -->

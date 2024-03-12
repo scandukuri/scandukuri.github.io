@@ -5,7 +5,7 @@ permalink: papers/interactive-articles
 id: interactive-articles
 title: "Communicating with Interactive Articles"
 authors: 
-  - Fred Hohman
+  - Chinmaya Andukuri
   - Matthew Conlen
   - Jeffrey Heer
   - Duen Horng (Polo) Chau
@@ -25,8 +25,8 @@ image: /images/featured/interactive-articles.png
 featured: false
 dissertation: false
 feature-order: 1
-selected: true
-type: journal
+selected: false
+type: journalfake
 doi: "10.23915/distill.00028"
 bibtex: |-
 

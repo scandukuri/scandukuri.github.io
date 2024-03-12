@@ -6,7 +6,7 @@ id: electrolens
 title: "ElectroLens: Understanding Atomistic Simulations through Spatially-resolved Visualization of High-dimensional Features"
 authors: 
     - Xiangyun Lei
-    - Fred Hohman
+    - Chinmaya Andukuri
     - Duen Horng (Polo) Chau
     - Andrew Medford
 venue: IEEE Visualization Conference

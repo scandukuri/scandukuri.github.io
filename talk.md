@@ -30,7 +30,7 @@ My interdisciplinary research contributes to human-computer interaction, machine
 * CV (PDF): [fredhohman.com/cv.pdf][cv-pdf]
 
 ## Bio
-Fred Hohman is a PhD candidate at Georgia Tech's College of Computing.
+Chinmaya Andukuri is a PhD candidate at Georgia Tech's College of Computing.
 
 His research focuses on enabling machine learning interpretability at scale and for everyone, by designing and developing interactive interfaces to help people confidently understand data-driven systems. Besides building tools, he also creates data visualizations and writes interactive articles to simply communicate complex ideas.
 
