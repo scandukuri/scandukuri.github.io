@@ -2,6 +2,7 @@
 layout: paper
 categories: papers
 permalink: papers/electrolens
+published: true
 id: electrolens
 title: "ElectroLens: Understanding Atomistic Simulations through Spatially-resolved Visualization of High-dimensional Features"
 authors: 
