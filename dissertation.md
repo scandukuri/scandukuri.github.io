@@ -92,8 +92,8 @@ He has collaborated with designers, developers, and scientists at Apple, Microso
 [talk-export]: https://youtu.be/k8fzkxxxyr8
 [talk-low-db]: https://www.dropbox.com/s/b4aqsp6ota3zani/defense-low-quality.pdf?dl=0
 [talk-high-db]: https://www.dropbox.com/s/97q8gcinczfnfvu/defense-high-quality.pdf?dl=0
-[cv]: https://fredhohman.com/cv
-[cv-pdf]: https://fredhohman.com/cv.pdf
+[cv]: https://scandukuri.github.io/cv
+[cv-pdf]: https://scandukuri.github.io/cv.pdf
 [statement]: {{ site.url }}/research-statement.pdf
 
 [gamut]: {{ site.url }}/papers/gamut

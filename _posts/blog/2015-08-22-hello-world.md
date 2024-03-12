@@ -6,7 +6,7 @@ permalink: blog/hello-world
 Chinmaya: true
 ---
 
-Welcome to the new `fredhohman.com`.
+Welcome to the new `scandukuri.github.io`.
 
 <!--more-->
 

@@ -40,7 +40,7 @@ During my senior year at my undergraduate institution, I recall a conversation I
 [^fn-discussion]: Thank you to those individuals who willingly talked with me, as well as the ones I trapped!
 [^research-areas]: Some extra reading: <a href="https://en.wikipedia.org/wiki/Data_mining" title="Data Mining.">data mining</a>, <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a>, <a href="https://en.wikipedia.org/wiki/Human–computer_interaction">human-computer interaction</a>, and <a href="https://en.wikipedia.org/wiki/Visualization_(computer_graphics)">visualization</a>.
 
-[grain-growth]: http://fredhohman.com/projects/material-informatics-grain-growth "Materials Informatics Grain Growth Project."
+[grain-growth]: http://scandukuri.github.io/projects/material-informatics-grain-growth "Materials Informatics Grain Growth Project."
 [pymks]: http://www.pymks.org "PyMKS."
 [mdp]: http://www.darpa.mil/program/materials-development-for-platforms "Materials Development for Platforms."
 [poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science."

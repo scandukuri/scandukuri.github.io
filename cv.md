@@ -268,7 +268,7 @@ Universe
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 
-[fred]: http://fredhohman.com "Chinmaya Andukuri"
+[fred]: http://scandukuri.github.io "Chinmaya Andukuri"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 [alex]: http://va.gatech.edu/endert/ "Alex Endert"
 

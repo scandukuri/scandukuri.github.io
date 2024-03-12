@@ -11,7 +11,7 @@ At the University of Georgia I spent three semesters exploring 3D printing techn
 <!--more-->
 
 <div class="message">
-<strong>Note:</strong> If you want to read more about the project and view a photo gallery of the 3D model I created, head over to the <a href="http://fredhohman.com/projects/3d-printing-the-trefoil-knot-and-its-pages/">dedicated project page</a>.
+<strong>Note:</strong> If you want to read more about the project and view a photo gallery of the 3D model I created, head over to the <a href="http://scandukuri.github.io/projects/3d-printing-the-trefoil-knot-and-its-pages/">dedicated project page</a>.
 </div>
 
 While working on this project I've had fantastic support, including recognition by some individuals that are experts in the field such as professor and now MakerBot employee Dr. Laura Taalman[^fn-lt]:

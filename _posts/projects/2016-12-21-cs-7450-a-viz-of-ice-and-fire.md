@@ -41,10 +41,10 @@ Our code is easily scalable to include and remove different textual categories, 
 * [Github Repository][github]
 * [Georgia Tech's CS 7450 InfoVis Class][infovis]
 
-[fred]: http://fredhohman.com "Chinmaya Andukuri"
+[fred]: http://scandukuri.github.io "Chinmaya Andukuri"
 [ian]: http://ianbstewart.github.io/ "Ian Stewart"
 [sandeep]: http://sandeepsoni.github.io "Sandeep Soni"
 
 [github]: https://github.com/fredhohman/a-viz-of-ice-and-fire "Github Repository."
-[viz]: http://fredhohman.com/a-viz-of-ice-and-fire/ "A Viz of Ice and Fire."
+[viz]: http://scandukuri.github.io/a-viz-of-ice-and-fire/ "A Viz of Ice and Fire."
 [infovis]: http://www.cc.gatech.edu/~stasko/7450/ "Georgia Tech's Information Visualization Class"

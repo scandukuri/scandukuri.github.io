@@ -13,12 +13,12 @@ venue-shorthand: CHI
 location: Denver, CO, USA
 year: 2017
 icon: shapeshop.png
-pdf: "https://fredhohman.com/papers/17-shapeshop-chi.pdf"
+pdf: "https://scandukuri.github.io/papers/17-shapeshop-chi.pdf"
 acm: "https://dl.acm.org/citation.cfm?id=3027063.3053103"
-url: "https://fredhohman.com/papers/shapeshop"
+url: "https://scandukuri.github.io/papers/shapeshop"
 video: "https://www.youtube.com/watch?v=wRX1xEdrD1g"
 code: "https://www.github.com/fredhohman/shapeshop"
-poster: "https://fredhohman.com/papers/17-shapeshop-chi-poster.pdf"
+poster: "https://scandukuri.github.io/papers/17-shapeshop-chi-poster.pdf"
 collaboration: PNNL
 type: poster
 figure: /images/papers/17-shapeshop-chi.png

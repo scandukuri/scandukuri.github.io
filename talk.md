@@ -25,9 +25,9 @@ My interdisciplinary research contributes to human-computer interaction, machine
 </p>
 
 ## Materials
-* Research Statement (PDF): [fredhohman.com/research-statement.pdf][statement]
-* CV (Web): [fredhohman.com/cv][cv]
-* CV (PDF): [fredhohman.com/cv.pdf][cv-pdf]
+* Research Statement (PDF): [scandukuri.github.io/research-statement.pdf][statement]
+* CV (Web): [scandukuri.github.io/cv][cv]
+* CV (PDF): [scandukuri.github.io/cv.pdf][cv-pdf]
 
 ## Bio
 Chinmaya Andukuri is a PhD candidate at Georgia Tech's College of Computing.
@@ -40,6 +40,6 @@ He has collaborated with designers, developers, and scientists at Apple, Microso
 [talk-high]: {{ site.url }}/talk-high-quality.pdf
 [talk-low-db]: https://www.dropbox.com/s/q67wq3eedr88yey/talk-low-quality.pdf?dl=0
 [talk-high-db]: https://www.dropbox.com/s/crmfc8gusn9rtt4/talk-high-quality.pdf?dl=0
-[cv]: https://fredhohman.com/cv
-[cv-pdf]: https://fredhohman.com/cv.pdf
+[cv]: https://scandukuri.github.io/cv
+[cv-pdf]: https://scandukuri.github.io/cv.pdf
 [statement]: {{ site.url }}/research-statement.pdf

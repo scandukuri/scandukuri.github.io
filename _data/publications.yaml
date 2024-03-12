@@ -124,7 +124,7 @@
   location: Vancouver, Canada
   year: 2020
   url: /papers/summit
-  demo: https://fredhohman.com/summit/
+  demo: https://scandukuri.github.io/summit/
   pdf: /papers/19-summit-vast.pdf
   slides: /slides/19-summit-vast-slides.pdf
   video: https://www.youtube.com/watch?v=J4GMLvoH1ZU&feature=youtu.be
@@ -145,7 +145,7 @@
       journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
       year={2020},
       publisher={IEEE},
-      url={https://fredhohman.com/summit/}
+      url={https://scandukuri.github.io/summit/}
     }
 
 - id: fairvis
@@ -454,7 +454,7 @@
   venue-shorthand: TVCG
   location: Berlin, Germany
   year: 2018
-  url: https://fredhohman.com/visual-analytics-in-deep-learning
+  url: https://scandukuri.github.io/visual-analytics-in-deep-learning
   pdf: https://arxiv.org/abs/1801.06889
   code: https://github.com/fredhohman/visual-analytics-in-deep-learning
   video: https://youtu.be/TI_sXHt2d8s
@@ -470,7 +470,7 @@
       journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
       year={2018},
       publisher={IEEE},
-      url={https://fredhohman.com/visual-analytics-in-deep-learning/}
+      url={https://scandukuri.github.io/visual-analytics-in-deep-learning/}
     }
   icon: deepvis.png
   tagline: An Interrogative Survey for the Next Frontiers
@@ -692,10 +692,10 @@
   venue-shorthand: VAST
   location: Phoenix, AZ, USA
   year: 2017
-  url: https://fredhohman.com/papers/playground
-  pdf: https://fredhohman.com/papers/17-playground-vast.pdf
+  url: https://scandukuri.github.io/papers/playground
+  pdf: https://scandukuri.github.io/papers/17-playground-vast.pdf
   video: https://www.youtube.com/watch?v=CV-0CIKg1CA&feature=youtu.be
-  poster: https://fredhohman.com/papers/17-playground-vast-poster.pdf
+  poster: https://scandukuri.github.io/papers/17-playground-vast-poster.pdf
   type: poster
   bibtex: |-
 
@@ -718,7 +718,7 @@
   venue-shorthand: VIS4DH
   location: Phoenix, AZ, USA
   year: 2017
-  url: https://fredhohman.com/a-viz-of-ice-and-fire/
+  url: https://scandukuri.github.io/a-viz-of-ice-and-fire/
   pdf: /papers/17-got-vis4dh.pdf
   code: https://github.com/fredhohman/a-viz-of-ice-and-fire
   data: https://github.com/fredhohman/a-viz-of-ice-and-fire/tree/master/vis/data
@@ -732,7 +732,7 @@
       journal={Proceedings of the 2nd Workshop on Visualization for the Digital Humanities (VIS4DH) at IEEE VIS},
       year={2017},
       publisher={IEEE},
-      url={https://fredhohman.com/a-viz-of-ice-and-fire/}
+      url={https://scandukuri.github.io/a-viz-of-ice-and-fire/}
     }
 
 - id: mhealth
@@ -753,7 +753,7 @@
   url: /papers/dashboard
   pdf: /papers/17-dashboard-ubicomp.pdf
   video: https://www.youtube.com/watch?v=vpvozWf1aCc&feature=youtu.be
-  poster: https://fredhohman.com/papers/17-dashboard-ubicomp-poster.pdf
+  poster: https://scandukuri.github.io/papers/17-dashboard-ubicomp-poster.pdf
   type: demo
   bibtex: |-
 
@@ -832,12 +832,12 @@
   year: 2017
   icon: shapeshop.png
   tagline: Understanding Deep Learning Representations via Interactive Experimentation
-  pdf: "https://fredhohman.com/papers/17-shapeshop-chi.pdf"
+  pdf: "https://scandukuri.github.io/papers/17-shapeshop-chi.pdf"
   acm: "https://dl.acm.org/citation.cfm?id=3027063.3053103"
-  url: "https://fredhohman.com/papers/shapeshop"
+  url: "https://scandukuri.github.io/papers/shapeshop"
   video: "https://www.youtube.com/watch?v=wRX1xEdrD1g"
   code: "https://www.github.com/fredhohman/shapeshop"
-  poster: "https://fredhohman.com/papers/17-shapeshop-chi-poster.pdf"
+  poster: "https://scandukuri.github.io/papers/17-shapeshop-chi-poster.pdf"
   collaboration: PNNL
   type: poster
   bibtex: |-

@@ -20,7 +20,7 @@ year: 2017
 url: /papers/dashboard
 pdf: /papers/17-dashboard-ubicomp.pdf
 video: https://www.youtube.com/watch?v=vpvozWf1aCc&feature=youtu.be
-poster: https://fredhohman.com/papers/17-dashboard-ubicomp-poster.pdf
+poster: https://scandukuri.github.io/papers/17-dashboard-ubicomp-poster.pdf
 type: demo
 figure: /images/papers/17-dashboard-ubicomp.png
 doi: "10.1145/3123024.3123170"

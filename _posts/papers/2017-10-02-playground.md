@@ -15,10 +15,10 @@ venue: Poster, IEEE Conference on Visual Analytics Science and Technology
 venue-shorthand: VAST
 location: Phoenix, AZ, USA
 year: 2017
-url: https://fredhohman.com/papers/playground
-pdf: https://fredhohman.com/papers/17-playground-vast.pdf
+url: https://scandukuri.github.io/papers/playground
+pdf: https://scandukuri.github.io/papers/17-playground-vast.pdf
 video: https://www.youtube.com/watch?v=CV-0CIKg1CA&feature=youtu.be
-poster: https://fredhohman.com/papers/17-playground-vast-poster.pdf
+poster: https://scandukuri.github.io/papers/17-playground-vast-poster.pdf
 type: poster
 figure: /images/papers/17-playground-vast.png
 feature-title: Graph Playgrounds

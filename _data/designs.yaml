@@ -36,7 +36,7 @@
   date: 2017, 2022, 2023
   venue: "ACM Conference on Human Factors in Computing Systems (CHI), Denver, USA"
   description: "Designed and implemented an interactive visualization of Brad Myers's advisee tree shown during his CHI 2017 Lifetime Research Award talk; designed accompanying ribbon worn by attendees at the conference"
-  url: http://fredhohman.com/brad-myers-advisee-tree
+  url: http://scandukuri.github.io/brad-myers-advisee-tree
 
 - title: 3D Printed Cube Decomposition Trophy
   date: "Aug. 2014"

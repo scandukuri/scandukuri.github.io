@@ -1,6 +1,6 @@
 title: Chinmaya Andukuri
 tagline: Research Scientist at Apple
-url: http://fredhohman.com
+url: http://scandukuri.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -15,7 +15,7 @@ sass:
 
 author:
   name: Chinmaya Andukuri
-  url: http://fredhohman.com
+  url: http://scandukuri.github.io
   email: fred.hohman@gmail.com
 
 markdown: kramdown
