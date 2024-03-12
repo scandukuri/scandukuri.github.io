@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Summer Internship at PNNL
-categories: blog
+categories: blognot
 permalink: blog/summer-internship-at-pnnl
+Chinmaya: false
 ---
 
 This summer I'll be an [NSIP Ph.D. intern][nsip] at Pacific Northwest National Lab working in the Data Sciences & Analytics (DSA) group. 

@@ -2,7 +2,8 @@
 layout: post
 title: "Ph.D. Year I: The Switch"
 permalink: blog/phd-year-i-the-switch
-categories: blog
+categories: blognot
+Chinmaya: false
 ---
 
 As my first year of graduate school comes to a close, I spent some time reflecting on my experiences over the past year.

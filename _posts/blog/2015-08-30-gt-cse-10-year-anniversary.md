@@ -1,8 +1,9 @@
 ---
 layout: post
 title: GT CSE 10 Year Anniversary
-categories: blog
+categories: blognot
 permalink: blog/cse-10-year-anniversary
+Chinmaya: false
 ---
 
 Georgia Tech's [School of Computational Science and Engineering][cse] in the [College of Computing][coc] celebrates its tenth birthday. 

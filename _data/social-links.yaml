@@ -29,12 +29,7 @@
   url: "https://www.linkedin.com/in/chinmaya-andukuri-706b45136/"
   on-homepage: true
 
-- id: mastodon
-  description: "fredhohman"
-  color: "#6364FF"
-  class: "fab fa-mastodon icon"
-  url: "https://vis.social/@fredhohman"
-  on-homepage: true
+
 
 - id: home
   description: "scandukuri.github.io"
@@ -44,13 +39,13 @@
   on-homepage: false
   cv-group: 1
 
-- id: scholar
-  description: "Google Scholar"
-  color: "#515151"
-  class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
-  on-homepage: true
-  cv-group: 2
+# - id: scholar
+#   description: "Google Scholar"
+#   color: "#515151"
+#   class: "fa fa-graduation-cap icon"
+#   url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
+#   on-homepage: true
+#   cv-group: 2
 
 - id: cv
   description: CV PDF

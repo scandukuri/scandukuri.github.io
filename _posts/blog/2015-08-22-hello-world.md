@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Hello, World
-categories: blog
+categories: blognot
 permalink: blog/hello-world
+Chinmaya: true
 ---
 
 Welcome to the new `fredhohman.com`.

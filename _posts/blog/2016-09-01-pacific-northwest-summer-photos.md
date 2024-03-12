@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Pacific Northwest Summer Photos
-categories: blog
+categories: blognot
 permalink: blog/pacific-northwest-summer-photos
+Chinmaya: false
 ---
 
 I spent my [summer working at Pacific Northwest National Lab][pnnl], but also made some time to get outside and explore more of the west coast. My trips included a few hikes, Los Angeles for my birthday, Portland, Seattle, the B Reactor, LIGO, and KDD 2016 in San Francisco. 

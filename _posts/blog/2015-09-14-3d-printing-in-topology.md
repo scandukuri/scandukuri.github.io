@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 3D Printing in Topology
-categories: blog
+categories: blognotnotnot
 permalink: blog/3d-printing-in-topology
+Chinmaya: false
 ---
 
 At the University of Georgia I spent three semesters exploring 3D printing techniques in topology under [Dr. David Gay][dg] in the [Mathematics Department][ugamath], in particular, visualizing complex shapes and knots using a MakerBot Replicator 2. 

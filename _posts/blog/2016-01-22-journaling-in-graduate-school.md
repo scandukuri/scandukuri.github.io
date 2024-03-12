@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Journaling in Graduate School
-categories: blog
+categories: blognotnot
 permalink: blog/journaling-in-graduate-school
+Chinmaya: false
 ---
 
 How I started a daily journal to document every day of my graduate career and why I think journaling in general is a good idea.

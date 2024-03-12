@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Georgia Tech Gigabit Internet
-categories: blog
+categories: blognot
 permalink: blog/georgia-tech-gigabit-internet
+Chinmaya: false
 ---
 
 Georgia Tech, being located in Midtown Atlanta, has supposedly had gigabit internet on campus for some time now. I wanted to test the speed for myself.
