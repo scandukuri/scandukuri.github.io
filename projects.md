@@ -15,11 +15,11 @@ Nothing yet, but stay tuned.
 
 Short experiments, investigations or projects that aren't quite suited for paper form
 
-<div class="project-spacer-small"></div>
-
 <div class="cover-wrapper cover-wrapper-2-col l-middle">
 	{% assign parametric = site.data.articles | where: "unpublished", true %}
 	{% for feature in parametric %}
 		{% include feature.html feature=feature %}
 	{% endfor %}
 </div>
+
+<div class="project-spacer-small"></div>
