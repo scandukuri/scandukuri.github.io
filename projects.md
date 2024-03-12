@@ -11,7 +11,7 @@ Nothing yet, but stay tuned.
 
 <div class="project-spacer-small"></div>
 
-## Unpublished work
+### Unpublished work
 
 Short experiments, investigations or projects that aren't quite suited for paper form
 
