@@ -9,6 +9,8 @@ Things I do, including research, academic course projects, and miscellaneous int
 ### Research
 Nothing yet, but stay tuned.
 
+<div class="project-spacer-small"></div>
+
 ## Unpublished work
 
 Short experiments, investigations or projects that aren't quite suited for paper form
@@ -21,10 +23,3 @@ Short experiments, investigations or projects that aren't quite suited for paper
 		{% include feature.html feature=feature %}
 	{% endfor %}
 </div>
-
-<div class="project-spacer-small"></div>
-
-### Unpublished work
-<ul>
-<li><a href="https://github.com/janphilippfranken/printllama">printllama<a/> <small style="color: #c0c0c0">2024</small>
-<li><a href="https://scandukuri.github.io/independent-research/normbank">manipulativeLMs</a> <small style="color: #c0c0c0">2023</small></li>
