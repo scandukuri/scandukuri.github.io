@@ -22,9 +22,9 @@ permalink: blog/
   {% endfor %}
 </div>
 
-<hr/>
+<!-- <hr/> -->
 
-<h1>Blog Archive</h1>
+<!-- <h1>Blog Archive</h1>
 <div>
   {% for post in site.categories.blog %}
   <article class="post" style="margin-bottom:1.25em;">
@@ -38,4 +38,4 @@ permalink: blog/
     </time>
   </article>
   {% endfor %}
-</div>
+</div> -->
