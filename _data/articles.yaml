@@ -51,11 +51,13 @@
   # year-extra: "Dec. 2018"
   #url: https://huggingface.co/datasets/scandukuri/humaneval-patch
   code: https://github.com/janphilippfranken/printllama
+  data: https://huggingface.co/datasets/scandukuri/humaneval-patch
   image: /images/projects/printllama/printllama-results.png
   feature-title: "printllama"
   feature-description: "Investigating language models' ability to patch buggy code with the help of print statements."
   feature-order: 2
   featured: true
+  project: true
   unpublished: true
   parametric-issue: true
   parametric-issue-number: 2
@@ -71,12 +73,14 @@
   # year-extra: "Dec. 2018"
   url: https://scandukuri.github.io/independent-research/normbank
   code: https://github.com/scandukuri/manipulativeLMs
+  pdf: https://drive.google.com/file/d/1-4a5GUHF9va-Y4t14Xy3ZMXkbSE9ssSy/view
   image: /images/projects/manipulativeLMs/manipulativeLMs-sidebyside.png
   #award: "Top of Hacker News, twice"
   feature-title: "manipulativeLMs"
   feature-description: "Studying manipulation and social reasoning in language models."
   feature-order: 3
   unpublished: true
+  project: true
   featured: true
   parametric-issue: true
   parametric-issue-number: 1
@@ -98,6 +102,7 @@
   feature-description: "Using abstract syntax trees to programmatically generate buggy code."
   feature-order: 3
   unpublished: true
+  project: true
   featured: true
   parametric-issue: true
   parametric-issue-number: 1
