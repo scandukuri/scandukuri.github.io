@@ -91,16 +91,16 @@ I have collaborated with researchers, product owners, engineers, and external cl
 {% endfor %} -->
 
 ## Publications
-Nothing yet, but stay tuned.
 
-<!-- ### Selected: Latest & Greatest
+
+<!-- ### Selected: Latest & Greatest -->
 
 {% assign selectedBoolForBibtex = true %}
 
 {% assign selected = site.categories.papers | where: 'selected', true %}
 {% for pub in selected %}
 {% include cv/publication.html pub=pub %}
-{% endfor %} -->
+{% endfor %} 
 
 <!-- ### All Publications -->
 

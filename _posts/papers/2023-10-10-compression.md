@@ -16,11 +16,11 @@ url: /papers/compression
 pdf: https://arxiv.org/abs/2310.04621
 type: preprint
 figure: /images/papers/23-compression-arxiv.png
-selected: true
+selected: false
 feature-title: Model Compression in Practice
 feature-description: Lessons learned from practitioners creating on-device machine learning experiences
 image: /images/featured/compression.png
-featured: true
+featured: false
 bibtex: |-
 
     @article{hohman2023model,

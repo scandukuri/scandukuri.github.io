@@ -100,6 +100,12 @@
 					</a>
 					{% endif %}
 
+					{% if feature.model %}
+					<a href="{{ feature.model }}">
+						<i class="fas fa-code-branch" aria-hidden="true"></i> Model
+					</a>
+					{% endif %}
+
 					{% if feature.data %}
 					<a href="{{ feature.data }}">
 						<i class="fas fa-folder" aria-hidden="true"></i> Data

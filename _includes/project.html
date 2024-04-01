@@ -25,6 +25,7 @@
                 </a>
                 {% endif %}
 
+
                 {% if project.demo %}
                 <a href="{{ project.demo }}">
                     <i class="fas fa-play" aria-hidden="true"></i> Demo
@@ -62,9 +63,9 @@
                 {% endif %}
 
                 {% if project.talk %}
-                  <a href="{{ project.talk }}">
+                <a href="{{ project.talk }}">
                     <i class="fas fa-video" aria-hidden="true"></i> Talk
-                  </a>
+                </a>
                 {% endif %}
 
                 {% if project.code %}
@@ -73,15 +74,21 @@
                 </a>
                 {% endif %}
 
+                {% if project.model %}
+                <a href="{{ project.model }}">
+                    <i class="fas fa-code-branch" aria-hidden="true"></i> Model
+                </a>
+                {% endif %}
+
                 {% if project.slides %}
                 <a href="{{ project.slides }}">
                     <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
                 </a>
                 {% endif %}
-                
+
             </span>
 
         </div>
-    
+
     </div>
 </div>
