@@ -39,13 +39,13 @@
   on-homepage: false
   cv-group: 1
 
-# - id: scholar
-#   description: "Google Scholar"
-#   color: "#515151"
-#   class: "fa fa-graduation-cap icon"
-#   url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
-#   on-homepage: true
-#   cv-group: 2
+- id: scholar
+  description: "Google Scholar"
+  color: "#515151"
+  class: "fa fa-graduation-cap icon"
+  url: "https://scholar.google.com/citations?user=NS_59YUAAAAJ&hl=en&oi=sra"
+  on-homepage: true
+  cv-group: 2
 
 - id: cv
   description: CV PDF
