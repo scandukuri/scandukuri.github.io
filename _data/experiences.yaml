@@ -1,4 +1,14 @@
 - institution: Capital One
+  location: "San Francisco, CA"
+  position: Software Engineer
+  group: "group pending"
+  year: "August 2024 — "
+  description: ""
+  institution-url: https://www.capitalone.com/tech/machine-learning/
+  group-url: https://www.capitalone.com/tech/machine-learning/
+  type: industry
+
+- institution: Capital One
   location: "McLean, VA"
   position: Software Engineer Intern
   group: "Enterprise Data + Machine Learning"
