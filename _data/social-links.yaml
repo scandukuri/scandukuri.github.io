@@ -29,8 +29,6 @@
   url: "https://www.linkedin.com/in/chinmaya-andukuri-706b45136/"
   on-homepage: true
 
-
-
 - id: home
   description: "scandukuri.github.io"
   color: "#515151"
@@ -47,6 +45,13 @@
   on-homepage: true
   cv-group: 2
 
+- id: huggingface
+  description: "scandukuri"
+  color: "#515151"
+  class: "far fa-smile-beam icon"
+  url: "https://huggingface.co/scandukuri"
+  on-homepage: true
+  
 - id: cv
   description: CV PDF
   color: "#ba2818"
