@@ -1,11 +1,11 @@
 - institution: Capital One
   location: "San Francisco, CA"
   position: Software Engineer
-  group: "group pending"
+  group: "Applied Research, LLM Pretraining"
   year: "August 2024 — "
-  description: ""
-  institution-url: https://www.capitalone.com/tech/machine-learning/
-  group-url: https://www.capitalone.com/tech/machine-learning/
+  description: "Research and implementation of experiments to make language models more effective assistants"
+  institution-url: https://www.capitalone.com/tech/machine-learning/applied-ai-research/
+  group-url: https://www.capitalone.com/tech/machine-learning/applied-ai-research/
   type: industry
 
 - institution: Capital One
