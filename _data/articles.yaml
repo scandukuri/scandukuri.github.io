@@ -41,6 +41,28 @@
 #   feature-parametric-order: 1000
 #   apple: true
 
+- title: "FasterDecoding/REST"
+  authors:
+    - Chinmaya Andukuri
+  description: "Fixed PyTorch errors and byte-level bugs in Rust to allow REST to support modern LMs + large tokenizers (e.g. Llama 3)."
+  month: "Dec."
+  year: "2024"
+  # year-extra: "Dec. 2018"
+  #url: https://scandukuri.github.io/independent-research/normbank
+  code: https://github.com/FasterDecoding/REST/pull/24
+  image: /images/projects/fasterdecoding-rest/pic.png
+  #award: "Top of Hacker News, twice"
+  feature-title: "FasterDecoding/REST"
+  feature-description: "Fixed PyTorch errors and byte-level bugs in Rust to allow REST to support modern LMs + large tokenizers (e.g. Llama 3)."
+  feature-order: 3
+  unpublished: true
+  project: true
+  featured: true
+  parametric-issue: true
+  parametric-issue-number: 2
+  parametric: false
+  feature-parametric-order: 2000
+  
 - title: "printllama"
   authors:
     - Chinmaya Andukuri
@@ -108,6 +130,7 @@
   parametric-issue-number: 1
   parametric: false
   feature-parametric-order: 1000
+
 
 # - title: Blueberry Pancakes
 #   authors:
