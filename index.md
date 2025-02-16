@@ -69,9 +69,10 @@ title: Home
 </p>
 
 <div class="cover-wrapper cover-wrapper-3-col l-middle">
-	{% assign projects = site.data.articles | where: "project", true %}
+	{% assign projects = site.data.articles | where: "project", true | where: "featured", true %}
 	{% for feature in projects %}
-		{% include feature.html feature=feature %}
-	{% endfor %}
+    {% include feature.html feature=feature %}
+{% endfor %}
+
 </div>
 

@@ -103,7 +103,7 @@
   feature-order: 3
   unpublished: true
   project: true
-  featured: true
+  featured: false
   parametric-issue: true
   parametric-issue-number: 1
   parametric: false
@@ -127,6 +127,28 @@
   project: true
   featured: true
   parametric-issue: true
+  parametric-issue-number: 1
+  parametric: false
+  feature-parametric-order: 1000
+
+- title: "llama3"
+  authors:
+    - Chinmaya Andukuri
+  description: "Llama3 from scratch in PyTorch."
+  month: "Feb."
+  year: "2025"
+  # year-extra: "Dec. 2018"
+  #url: https://scandukuri.github.io/independent-research/normbank
+  code: https://github.com/scandukuri/llama3
+  image: /images/projects/llama3/llama3.png
+  #award: "Top of Hacker News, twice"
+  feature-title: "llama3 from scratch"
+  feature-description: "Llama3 from scratch in PyTorch."
+  feature-order: 3
+  unpublished: true
+  project: true
+  featured: false
+  parametric-issue: false
   parametric-issue-number: 1
   parametric: false
   feature-parametric-order: 1000

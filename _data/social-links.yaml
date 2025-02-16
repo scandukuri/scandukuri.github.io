@@ -6,14 +6,6 @@
   on-homepage: true
   cv-group: 1
 
-- id: twitter
-  description: "@chinmaya_mohan"
-  color: "#1da1f2"
-  class: "fab fa-twitter icon"
-  url: https://twitter.com/chinmaya_mohan
-  on-homepage: true
-  cv-group: 2
-
 - id: github
   description: "@scandukuri"
   color: "#6e5494"
@@ -29,14 +21,6 @@
   url: "https://www.linkedin.com/in/chinmaya-andukuri-706b45136/"
   on-homepage: true
 
-- id: home
-  description: "scandukuri.github.io"
-  color: "#515151"
-  class: "fas fa-home icon"
-  url: "https://scandukuri.github.io"
-  on-homepage: false
-  cv-group: 1
-
 - id: scholar
   description: "Google Scholar"
   color: "#515151"
@@ -51,6 +35,28 @@
   class: "far fa-smile-beam icon"
   url: "https://huggingface.co/scandukuri"
   on-homepage: true
+  
+- id: twitter
+  description: "@chinmaya_mohan"
+  class: "fa-brands fa-square-x-twitter"
+  url: https://twitter.com/chinmaya_mohan
+  on-homepage: true
+  cv-group: 2
+
+- id: bluesky
+  description: "@scandukuri.bsky.socialn"
+  class: "fa-brands fa-bluesky"
+  url: https://bsky.app/profile/scandukuri.bsky.social
+  on-homepage: true
+  cv-group: 2
+
+- id: home
+  description: "scandukuri.github.io"
+  color: "#515151"
+  class: "fas fa-home icon"
+  url: "https://scandukuri.github.io"
+  on-homepage: false
+  cv-group: 1
   
 - id: cv
   description: CV PDF
