@@ -9,8 +9,10 @@ Chinmaya: true
 My handwritten proof to understand why the Vanilla Policy Gradient does not change when subtracting a state-dependent baseline of our choice. Used [OpenAI Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html) as a starting point.
 
 <!--more-->
-<object data="/papers/baseline-invariance.pdf" type="application/pdf" width="100%" height="800px">
-  <p>
-    It looks like your browser doesn’t support inline PDFs.
-  </p>
-</object>
+<div style="position:relative; padding-top: 56.25%; overflow:hidden;">
+  <iframe
+    src="https://docs.google.com/gview?url=https://scandukuri.github.io/papers/baseline-invariance.pdf&embedded=true"
+    style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;"
+    allowfullscreen
+  ></iframe>
+</div>
