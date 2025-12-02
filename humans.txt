@@ -1,9 +1,0 @@
-/* TEAM */
-	Author: Chinmaya Andukuri
-	Twitter: @fredhohman
-	Location: Seattle, United States
-
-/* SITE */
-    Language: English
-	Standards: HTML5, CSS3
-	Software: Jekyll
