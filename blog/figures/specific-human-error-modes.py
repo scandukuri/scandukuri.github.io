@@ -1,4 +1,4 @@
-"""Generate cheap-heuristic-beats-compactor.svg for the blog post.
+"""Generate specific-human-error-modes.svg for the blog post.
 
 Two-panel bar chart: h-error-pos and h-trunc-pos match rates with Wilson 95% CIs
 on the underlying proportions. Three methods per panel: HUMAN (ceiling), HistGBT
@@ -7,10 +7,10 @@ on the underlying proportions. Three methods per panel: HUMAN (ceiling), HistGBT
 Style: serif (Palatino / et-book-ish), muted earth-tones, no top/right spines,
 no gridlines; matches the Tufte / latex.css feel of the surrounding page.
 
-Output: figures/cheap-heuristic-beats-compactor.svg (vector; scales cleanly inline).
+Output: figures/specific-human-error-modes.svg (vector; scales cleanly inline).
 
 Run from the repo root:
-    python blog/figures/cheap-heuristic-beats-compactor.py
+    python blog/figures/specific-human-error-modes.py
 
 Counts are hard-coded with citations to the experiment dir they came from.
 """
@@ -137,5 +137,5 @@ def make_figure(out_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    out = Path(__file__).parent / "cheap-heuristic-beats-compactor.svg"
+    out = Path(__file__).parent / "specific-human-error-modes.svg"
     make_figure(out)
