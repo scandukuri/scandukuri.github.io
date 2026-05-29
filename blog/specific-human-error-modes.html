@@ -35,7 +35,7 @@
       </section>
 
       <section>
-        <h2 id="task-eli5">What the digit-span task is (ELI5)</h2>
+        <h2 id="task-eli5">What the digit-span task is</h2>
         <p>
           Digit-span forward is a classic tool in cognitive psychology. The subject hears or reads a short sequence of digits &ndash; e.g.&nbsp;<code>3&nbsp;7&nbsp;1&nbsp;9&nbsp;4</code> &ndash; and is then asked to type them back in the same order. Of course, this task tends to get harder at longer sequence lengths. Real humans tend to fail in particular ways, like:
         </p>
@@ -50,7 +50,7 @@
       </section>
 
       <section>
-        <h2 id="compactor-eli5">What COMPACTOR is (ELI5)</h2>
+        <h2 id="compactor-eli5">What COMPACTOR is</h2>
         <p>
           COMPACTOR is the paper&rsquo;s proposal for memory-constrained language models. A normal LM has effectively unlimited working memory on small inputs &ndash; it just attends back over the entire prompt. COMPACTOR wraps the LM in a key-value memory tool with a hard 4-slot budget. During an &ldquo;encode&rdquo; phase the model has to choose what to compress and store; during a &ldquo;recall&rdquo; phase it can only read from those 4 slots. The 4-slot number is the cognitive science anchor.<label for="cowan-sn" class="margin-toggle sidenote-number"></label>
           <input type="checkbox" id="cowan-sn" class="margin-toggle"/>
@@ -70,7 +70,7 @@
           So: <strong>on the same TEST trials, scored position-by-position against the held-out human&rsquo;s actual keystrokes, how does the LM-based COMPACTOR pipeline compare to a baseline that uses no LM at all &ndash; just a gradient-boosted tree on hand-crafted features?</strong> We use Qwen3-next-80B-instruct as the model backend &ndash; it&rsquo;s within ~6pp of human aggregate accuracy on the paper&rsquo;s benchmark.
         </p>
         <p>
-          The hand-crafted tree is a useful comparison point because it has no notion of language or semantics. It just sees per-position features (digit identity, span length, where you are in the sequence, what you typed last). If it does well, the win isn&rsquo;t architectural &ndash; it&rsquo;s that position-level humanlike errors on this task have a lot of regular structure available cheaply.
+          The hand-crafted tree is a useful comparison point because it has no notion of language or semantics. It just sees per-position features (digit identity, span length, where you are in the sequence, what you typed last). If it does well, we have evidence that position-level humanlike errors on this task have a lot of regular structure available cheaply.
         </p>
       </section>
 
@@ -87,7 +87,7 @@
 
         <h3>Heuristic baseline</h3>
         <p>
-          Per-position multiclass prediction of what the held-out human typed at each position (target: one of 11 classes &ndash; digits 0&ndash;9 plus a TRUNC class). 103 hand-crafted features per position, all derivable from the stimulus and the human&rsquo;s own prior typed tokens during teacher-forced training: position index (raw, squared, normalized), span length, primacy and recency indicators, the current gold digit one-hot, the last three gold digits one-hot, peek at the next gold digit, the last three typed digits one-hot, error indicators for the last three positions, a truncation-so-far flag, and a small set of cross products. No participant ID. No external embedding. No language model.
+          Per-position multiclass prediction of what the held-out human typed at each position (target: one of 11 classes &ndash; digits 0&ndash;9 plus a TRUNC class). 103 hand-crafted features per position, all derivable from the stimulus and the human&rsquo;s own prior typed tokens during teacher-forced training: position index (raw, squared, normalized), span length, primacy and recency indicators, the current gold digit one-hot, the last three gold digits one-hot, peek at the next gold digit, the last three typed digits one-hot, error indicators for the last three positions, a truncation-so-far flag, and a small set of cross products.
         </p>
         <p>
           Three models trained on the same 103 features:
@@ -137,7 +137,7 @@
         <figure>
           <img src="figures/specific-human-error-modes.svg" alt="Per-position match against held-out humans on the digit-error and truncation subsets. Wilson 95% confidence intervals shown.">
           <figcaption>
-            Match-rate against held-out human keystrokes on the digit-span forward TEST split, by metric subset. Error bars are Wilson 95% intervals on the underlying proportions. The aggregate columns (overall, h-correct-pos) are tight and look similar across methods; the disagreement shows up on h-error-pos and h-trunc-pos, where denominators are small and intervals are correspondingly wide. Qwen3-next-80B is the COMPACTOR row here (the published Qwen3-8B route was unstable on OpenRouter during our run; the 80B row has full n=119).
+            Match-rate against held-out human keystrokes on the digit-span forward TEST split, by metric subset. Error bars are Wilson 95% intervals on the underlying proportions. The aggregate columns (overall, h-correct-pos) are tight and look similar across methods; the disagreement shows up on h-error-pos and h-trunc-pos, where denominators are small and intervals are correspondingly wide. Qwen3-next-80B is the COMPACTOR row here.
           </figcaption>
         </figure>
 
