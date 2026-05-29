@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Can we reproduce specific human error modes with LM user simulators? &ndash; Chinmaya Andukuri</title>
+    <link rel="stylesheet" href="../tufte.css"/>
+    <link rel="stylesheet" href="../latex.css"/>
+    <link rel="stylesheet" href="../blog.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="only light">
+  </head>
+
+  <body>
+    <article>
+      <p style="margin-bottom: 0.5em;"><a href="../index.html">&larr; back</a></p>
+
+      <h1 id="title">Can we reproduce specific human error modes with LM user simulators?</h1>
+
+      <p class="subtitle">Research note.</p>
+
+      <section>
+        <h2 id="context">What this is following up on</h2>
+        <p>
+          A team of researchers from NYU recently put out <cite><a href="https://arxiv.org/abs/2605.25680">Simulating Human Memory with Language Models</a></cite> to investigate: can we get language models forget like people do? The abstract:
+        </p>
+        <blockquote>
+          &ldquo;Language models are increasingly being deployed as user simulators, but their memory is far more reliable than that of real users&hellip; we show that better prompting strategies and the use of a compactor can cause language models to forget content in a more human-like way. Using these methods, we show <em>preliminary evidence</em> that language models with human-like memory constraints can function as more effective user simulators in a downstream education task.&rdquo;
+        </blockquote>
+        <p>
+          They release ten classic memory tasks from psychology with human reference data plus the COMPACTOR architecture &ndash; an LM-with-memory-tool setup that imposes a small (4-slot) key-value memory budget, inspired by Cowan&rsquo;s ~4-chunk working memory limit. With this in place they show, across tasks, that COMPACTOR-equipped frontier LMs match human <em>aggregate</em> accuracy much more closely than the same LMs without the constraint.
+        </p>
+        <p>
+          The natural next question, and the one this note pokes at: <strong>does aggregate accuracy on human behaviors translate to more granular behavioral match?</strong> That is, when a particular human makes a particular mistake under a particular set of circumstances, can an LM-based pipeline produce that same mistake? The aggregate metric is black-box with respect to this question, and downstream uses of these simulators (tutoring, error-pattern analysis, RL against a forgetful student) are likely to be affected by whether the simulator has more granular fidelity.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="task-eli5">What the digit-span task is (ELI5)</h2>
+        <p>
+          Digit-span forward is a classic tool in cognitive psychology. The subject hears or reads a short sequence of digits &ndash; e.g.&nbsp;<code>3&nbsp;7&nbsp;1&nbsp;9&nbsp;4</code> &ndash; and is then asked to type them back in the same order. Of course, this task tends to get harder at longer sequence lengths. Real humans tend to fail in particular ways, like:
+        </p>
+        <ul>
+          <li>truncation &ndash; stopping after the first few digits because they ran out of memory,</li>
+          <li>substituting a similar nearby digit,</li>
+          <li>losing order in the middle of the sequence (the &ldquo;edge&rdquo; digits survive, the middle ones might not).</li>
+        </ul>
+        <p>
+          Wang et&nbsp;al. (and the broader memory benchmarks they draw on) have 53 humans complete digit-span trials at varying lengths. The data we use throughout this note is their human keystroke output: for each trial we know the gold sequence the participant saw and the exact sequence they typed back.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="compactor-eli5">What COMPACTOR is (ELI5)</h2>
+        <p>
+          COMPACTOR is the paper&rsquo;s proposal for memory-constrained language models. A normal LM has effectively unlimited working memory on small inputs &ndash; it just attends back over the entire prompt. COMPACTOR wraps the LM in a key-value memory tool with a hard 4-slot budget. During an &ldquo;encode&rdquo; phase the model has to choose what to compress and store; during a &ldquo;recall&rdquo; phase it can only read from those 4 slots. The 4-slot number is the cognitive science anchor.<label for="cowan-sn" class="margin-toggle sidenote-number"></label>
+          <input type="checkbox" id="cowan-sn" class="margin-toggle"/>
+          <span class="sidenote">Cowan, N. <cite>The magical number 4 in short-term memory: A reconsideration of mental storage capacity</cite>. Behavioral and Brain Sciences, 2001.</span>
+        </p>
+        <p>
+          The empirical claim in the paper is, paraphrased: COMPACTOR-equipped LMs are <em>much</em> closer to humans on aggregate accuracy than the same LMs without the constraint, because the constraint forces them to drop information the way humans do. On digit-span their reported aggregate matches are tight &ndash; the closest model in the paper&rsquo;s table sits within ~1pp of the human aggregate of 84.80%, which is remarkable at the aggregate level.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="question">The narrow follow-on question</h2>
+        <p>
+          If we&rsquo;re aiming to build a user simulator out of one of these memory-equipped LMs &ndash; say, a forgetful student for a tutor LM to practice against &ndash; the aggregate match is necessary but not sufficient. We also need the simulator to <em>err in the same places a real human would</em>, not just at the same overall rate. A simulator that scores 85% but with errors in entirely different positions than humans would train the tutor to handle the wrong failure modes.
+        </p>
+        <p>
+          So: <strong>on the same TEST trials, scored position-by-position against the held-out human&rsquo;s actual keystrokes, how does the LM-based COMPACTOR pipeline compare to a baseline that uses no LM at all &ndash; just a gradient-boosted tree on hand-crafted features?</strong> We use Qwen3-next-80B-instruct as the model backend &ndash; it&rsquo;s within ~6pp of human aggregate accuracy on the paper&rsquo;s benchmark.
+        </p>
+        <p>
+          The hand-crafted tree is a useful comparison point because it has no notion of language or semantics. It just sees per-position features (digit identity, span length, where you are in the sequence, what you typed last). If it does well, the win isn&rsquo;t architectural &ndash; it&rsquo;s that position-level humanlike errors on this task have a lot of regular structure available cheaply.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="setup">Setup</h2>
+
+        <h3>Data</h3>
+        <p>
+          All inputs are human data from the paper&rsquo;s reference repository (<code>nickatomlin/simulating-memory@fefb178b</code>), not seeded synthetic stimuli. 53 human runs from <code>runs/human/working-memory-digit-span/</code>, filtered to sequences of length 2&ndash;7 where humans actually err &ndash; this gives 592 (gold, human-typed) trial pairs.
+        </p>
+        <p>
+          Single 80/20 trial-level split, <code>random.Random(42).shuffle</code>: <strong>473 TRAIN trials, 119 TEST trials</strong>. The TEST set has 517 positions total &ndash; 465 where the human typed the gold digit (call these <em>h-correct</em>), and 52 where they didn&rsquo;t (call these <em>h-error</em>). Within the h-error subset, 15 are truncations &ndash; the participant stopped emitting digits before reaching the end. Everything below is evaluated on these 119 TEST trials.
+        </p>
+
+        <h3>Heuristic baseline</h3>
+        <p>
+          Per-position multiclass prediction of what the held-out human typed at each position (target: one of 11 classes &ndash; digits 0&ndash;9 plus a TRUNC class). 103 hand-crafted features per position, all derivable from the stimulus and the human&rsquo;s own prior typed tokens during teacher-forced training: position index (raw, squared, normalized), span length, primacy and recency indicators, the current gold digit one-hot, the last three gold digits one-hot, peek at the next gold digit, the last three typed digits one-hot, error indicators for the last three positions, a truncation-so-far flag, and a small set of cross products. No participant ID. No external embedding. No language model.
+        </p>
+        <p>
+          Three models trained on the same 103 features:
+        </p>
+        <ul>
+          <li><code>HistGradientBoostingClassifier(max_iter=300, learning_rate=0.05, max_depth=6, l2_regularization=1.0, random_state=42)</code> &ndash; the one we focus on.</li>
+          <li><code>LogisticRegressionCV</code> with L2 (5-fold CV over <code>C&isin;{0.001,0.01,0.1,1,10}</code>, <code>max_iter=5000</code>) &ndash; linear sanity check.</li>
+          <li><code>RandomForestClassifier(n_estimators=500, min_samples_leaf=2)</code> &ndash; nonlinear sanity check.</li>
+        </ul>
+        <p>
+          All evaluated greedily on TEST.
+        </p>
+
+        <h3>COMPACTOR baseline</h3>
+        <p>
+          We run the paper&rsquo;s COMPACTOR pipeline exactly as released (key-value memory tool, encode-then-recall, <code>MAX_KEYS=4</code>, the published prompts and tool schema) on the <em>same TEST gold sequences the held-out humans saw</em>. Backend: <strong>qwen/qwen3-next-80b-a3b-instruct</strong> &ndash; reported by the paper at +5.87pp aggregate vs the human aggregate, full TEST denominator n=119. Temperature 0, unmodified pipeline from the reference repo, just pointed at human stimuli instead of seeded ones.
+        </p>
+        <p>
+          <strong>Validity check:</strong> the paper&rsquo;s metric on this model (exact recall vs gold) reports 90.67% on their span 2&ndash;20 seeded stimuli. Computing the same metric on our TEST stimuli (spans 2&ndash;7, n=119) gives 87.39%. That &sim;3pp gap is consistent with the change in span range and trial count &ndash; the pipeline replicates cleanly, the numbers in the table below come from the same machinery the paper used.
+        </p>
+
+        <h3>Metric</h3>
+        <p>
+          For each TEST position we have three labels: <em>gold</em> (the correct digit, derivable from the stimulus), <em>human</em> (what the held-out human actually typed, or TRUNC if they stopped before reaching it), and <em>method</em> (whatever the heuristic or COMPACTOR outputs at that position).<label for="metric-sn" class="margin-toggle sidenote-number"></label>
+          <input type="checkbox" id="metric-sn" class="margin-toggle"/>
+          <span class="sidenote">
+            <strong>Why none of these numbers appear in the paper&rsquo;s tables.</strong> The paper reports <em>exact-vs-gold</em> &ndash; how often the model produces the correct digit sequence. We report <em>match-vs-human</em> &ndash; how often the model produces what a specific held-out human typed. The two metrics agree when the human got it right (which is the majority of trials), but diverge sharply when the human erred: exact-vs-gold gives the model credit for typing gold, while match-vs-human gives credit only for typing the same wrong digit the human typed. The first measures model accuracy. The second measures simulator fidelity to a specific person&rsquo;s behavior. They&rsquo;re different questions, and they give different numbers on the same data. The 87.39% validity-check number above is the only number in this note directly comparable to a number in the paper&rsquo;s tables.
+          </span>
+        </p>
+        <p>
+          Four reported quantities:
+        </p>
+        <ul>
+          <li><strong>overall</strong> &ndash; fraction of positions where method == human.</li>
+          <li><strong>h-correct-pos</strong> &ndash; same, restricted to positions where the human typed gold (n=465).</li>
+          <li><strong>h-error-pos</strong> &ndash; same, restricted to positions where the human typed something other than gold (n=52).</li>
+          <li><strong>h-trunc-pos</strong> &ndash; subset of h-error where the human stopped early (n=15).</li>
+        </ul>
+        <p>
+          Confidence intervals are Wilson 95% on the underlying proportions. They&rsquo;re wide because the h-error denominators are small (and that&rsquo;s the main thing future work on more tasks could tighten).
+        </p>
+      </section>
+
+      <section>
+        <h2 id="result">Result</h2>
+
+        <figure>
+          <img src="figures/cheap-heuristic-beats-compactor.svg" alt="Per-position match against held-out humans on the digit-error and truncation subsets. Wilson 95% confidence intervals shown.">
+          <figcaption>
+            Match-rate against held-out human keystrokes on the digit-span forward TEST split, by metric subset. Error bars are Wilson 95% intervals on the underlying proportions. The aggregate columns (overall, h-correct-pos) are tight and look similar across methods; the disagreement shows up on h-error-pos and h-trunc-pos, where denominators are small and intervals are correspondingly wide. Qwen3-next-80B is the COMPACTOR row here (the published Qwen3-8B route was unstable on OpenRouter during our run; the 80B row has full n=119).
+          </figcaption>
+        </figure>
+
+        <p>
+          Full table on TEST, all methods on all four columns:
+        </p>
+
+        <table>
+          <thead>
+            <tr><th>Method</th><th>overall</th><th>h-correct-pos<br><small>(n=465)</small></th><th>h-error-pos<br><small>(n=52)</small></th><th>h-trunc-pos<br><small>(n=15)</small></th></tr>
+          </thead>
+          <tbody>
+            <tr><td>HUMAN (self)</td><td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td></tr>
+            <tr><td><strong>HistGBT (heuristic)</strong></td><td><strong>90.33%</strong></td><td><strong>98.92%</strong></td><td><strong>13.46%</strong></td><td><strong>26.67%</strong></td></tr>
+            <tr><td>LR (L2)</td><td>90.72%</td><td>100.00%</td><td>7.69%</td><td>13.33%</td></tr>
+            <tr><td>RandomForest</td><td>90.52%</td><td>100.00%</td><td>5.77%</td><td>20.00%</td></tr>
+            <tr><td>Qwen3-next-80B + COMPACTOR</td><td>82.40%</td><td>90.75%</td><td>7.69%</td><td>6.67%</td></tr>
+            <tr><td>always-predict-gold</td><td>89.94%</td><td>100.00%</td><td>0.00%</td><td>0.00%</td></tr>
+            <tr><td>random-digit (0&ndash;9)</td><td>7.54%</td><td>7.74%</td><td>5.77%</td><td>0.00%</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Two observations to read from this:
+        </p>
+        <ol>
+          <li>The aggregate columns (overall, h-correct-pos) look broadly similar across HistGBT and Qwen3-next-80B + COMPACTOR &ndash; the heuristic edges out the published method by a few points but they&rsquo;re close, consistent with the paper&rsquo;s finding that COMPACTOR achieves aggregate match.</li>
+          <li>The disagreement is most visible on the h-error and h-trunc columns, where the heuristic&rsquo;s point estimate is meaningfully higher than COMPACTOR&rsquo;s. Wilson 95% intervals overlap, so the magnitudes don&rsquo;t survive strict inference; the ranking does, and it&rsquo;s the same direction on both the digit-error and truncation subsets.</li>
+        </ol>
+        <p>
+          To frame it as the paper would: this is the gap between &ldquo;forgets at the right <em>rate</em>&rdquo; and &ldquo;forgets in the right <em>places</em>.&rdquo; The latter is what downstream user-simulator uses actually depend on.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="implication">What this suggests</h2>
+        <p>
+          For digit-span forward specifically, specific humanlike errors look like they have enough regular structure (recency, primacy, last-typed-digit, truncation-after-load) that a gradient-boosted tree on those features is a strong baseline &ndash; one a memory-constrained LM has to clear, not just match in aggregate. Neither our simple heuristic-driven baseline nor the LM-based COMPACTOR approach can comfortably find the error patterns in the data.
+        </p>
+        <p>
+          This reiterates what the paper&rsquo;s preliminary user-simulator claim rests on: if the downstream is going to consume specific simulated responses (and tutor RL very much does), then granular behavior fidelity is crucial to track. Digit-span forward might not be one of them; richer tasks (variable-mapping, factual QA, narrative QA, semantic story recall) where errors are semantically structured rather than just memory-dropout are the natural next places to look, and places where CoT / reasoning tokens might actually better allow models to determine what errors should be made in particular scenarios. I'm looking forward to digging into some of those next!<label for="next-sn" class="margin-toggle sidenote-number"></label>
+          <input type="checkbox" id="next-sn" class="margin-toggle"/>
+          <span class="sidenote">Of course, we&rsquo;re still in early days &ndash; this note is one shape that my future work will likely build on: re-evaluate on a metric closer to the downstream use case, and use simple baselines to calibrate what the LM-based architecture is actually contributing.</span>
+        </p>
+      </section>
+      <section>
+        <h2 id="refs">References &amp; artifacts</h2>
+        <ul>
+          <li>Wang, Q., Tomlin, N., Hu, M., Dillon, B., Linzen, T. <cite><a href="https://arxiv.org/abs/2605.25680">Simulating Human Memory with Language Models</a></cite>. 2026. Reference repo: <code>nickatomlin/simulating-memory@fefb178b</code>.</li>
+          <li>Cowan, N. <cite>The magical number 4 in short-term memory: A reconsideration of mental storage capacity</cite>. Behavioral and Brain Sciences, 2001.</li>
+          <li>Experiment code: <a href="https://github.com/scandukuri/human-memory-sim/tree/audit-exploration"><code>scandukuri/human-memory-sim @ audit-exploration</code></a>. Heuristics: <code>experiments/audit/predict_human_digit/</code>. COMPACTOR-on-human-stimuli: <code>experiments/audit/compactor_on_human_golds/</code>.</li>
+        </ul>
+      </section>
+    </article>
+  </body>
+</html>
