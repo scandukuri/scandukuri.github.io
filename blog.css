@@ -1,0 +1,104 @@
+/* blog.css — overrides for blog posts only. Loaded AFTER tufte.css + latex.css.
+ *
+ * The Tufte default puts body content on the left with a wide right margin
+ * for marginnotes. For long-form blog posts I want the content centered with
+ * equal margins. Block quotes get a slight inward indent.
+ */
+
+body {
+    width: 88%;
+    max-width: 1100px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tufte pins paragraphs, lists, tables, and footers to 55% / 50% of their
+ * section so marginnotes get room on the right. We aren't using that layout,
+ * so reset them all to full body width. */
+section > p,
+section > ol,
+section > ul,
+section > dl,
+section > footer,
+section > table {
+    width: 100%;
+}
+
+p.subtitle {
+    width: 100%;
+}
+
+/* Sidenotes lose their dedicated right-margin space when the body is centered;
+ * Tufte's checkbox toggle pattern already falls back to inline expansion on
+ * narrower bodies, so the click-to-reveal numbered notes still work. */
+.sidenote,
+.marginnote {
+    float: none;
+    clear: none;
+    margin: 1rem 0 1rem 2rem;
+    width: auto;
+    display: none;
+}
+.margin-toggle:checked + .sidenote,
+.margin-toggle:checked + .marginnote {
+    display: block;
+}
+
+/* Block quotes: indented inward from body, with a subtle left rule. */
+blockquote {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #ccc;
+}
+
+/* Figures: full body width, with vertical breathing room above and below.
+ * Tufte caps figure at 55% and floats figcaption into the right margin;
+ * we use full width and put the caption as a normal block under the figure. */
+figure {
+    max-width: 100%;
+    margin: 3rem 0 3rem 0;
+    padding: 0;
+}
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    float: none;
+    clear: both;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: #444;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+/* Tables: take full body width, centered, slightly tighter than Tufte's default.
+ * All cells left-justified. */
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table th,
+table td {
+    text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+    blockquote {
+        border-left-color: #555;
+    }
+    figcaption {
+        color: #aaa;
+    }
+}
