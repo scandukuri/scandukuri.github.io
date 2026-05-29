@@ -94,11 +94,21 @@ table td {
     text-align: left;
 }
 
+/* Force light mode on blog pages regardless of OS preference.
+ * Tufte.css applies dark-bg colors when the user's OS is in dark mode;
+ * we override those rules to keep the post looking the same in both modes. */
 @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #fefefe;
+        color: #111;
+    }
+    a:link, .tufte-underline, .hover-tufte-underline:hover {
+        text-shadow: 0.03em 0 #fefefe, -0.03em 0 #fefefe, 0 0.03em #fefefe, 0 -0.03em #fefefe, 0.06em 0 #fefefe, -0.06em 0 #fefefe, 0.09em 0 #fefefe, -0.09em 0 #fefefe, 0.12em 0 #fefefe, -0.12em 0 #fefefe, 0.15em 0 #fefefe, -0.15em 0 #fefefe;
+    }
     blockquote {
-        border-left-color: #555;
+        border-left-color: #ccc;
     }
     figcaption {
-        color: #aaa;
+        color: #444;
     }
 }
