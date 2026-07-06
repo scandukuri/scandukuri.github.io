@@ -21,6 +21,20 @@
     <link rel="stylesheet" href="latex.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="only light">
+    <!-- Force light mode regardless of OS preference. The color-scheme meta tag
+         only affects UA-rendered controls, not tufte.css's dark-mode CSS rules,
+         so we override those the same way blog.css does for posts. -->
+    <style>
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #fefefe;
+          color: #111;
+        }
+        a:link, .tufte-underline, .hover-tufte-underline:hover {
+          text-shadow: 0.03em 0 #fefefe, -0.03em 0 #fefefe, 0 0.03em #fefefe, 0 -0.03em #fefefe, 0.06em 0 #fefefe, -0.06em 0 #fefefe, 0.09em 0 #fefefe, -0.09em 0 #fefefe, 0.12em 0 #fefefe, -0.12em 0 #fefefe, 0.15em 0 #fefefe, -0.15em 0 #fefefe;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -100,6 +114,11 @@
         <h2 id="Blog">Blog</h2>
 
         <p>
+          <cite><a href="https://blog.collinear.ai/p/670d471c-1644-497c-baa6-c638cc5b0e82">The User went for a Cigarette</a></cite><br>
+          Modeling partial observability for high-fidelity user simulation, July 1, 2026.
+        </p>
+
+        <p>
           <cite><a href="blog/specific-human-error-modes.html">Can we reproduce specific human error modes with LM user simulators?</a></cite><br>
           A follow-on to Wang et al. (2026) on the gap between matching humans on average vs at the positions where they actually err, May 29, 2026.
         </p>
@@ -110,13 +129,13 @@
         </p>
         
         <p>
-          <cite><a href="https://drive.google.com/file/d/1dUeODT3PVM1-V6mBb_-kETci0TJgjfra/view?usp=sharing">Invariance of state-dependent baselines in Vanilla Policy Gradient</a></cite><br>
-          Proof of baseline invariance in RL, October 8, 2025.
+          <cite><a href="https://drive.google.com/file/d/1mhrgcEqhi-yvBq7dzEVcPvOIMOQtCej_/view?usp=drive_link">Notes on gradient of matrix product in neural networks</a></cite><br>
+          Handwritten derivation of gradient of matrix product as it appears in backpropagation, December 13, 2025.
         </p>
 
         <p>
-          <cite><a href="https://drive.google.com/file/d/1mhrgcEqhi-yvBq7dzEVcPvOIMOQtCej_/view?usp=drive_link">Notes on gradient of matrix product in neural networks</a></cite><br>
-          Handwritten derivation of gradient of matrix product as it appears in backpropagation, December 13, 2025.
+          <cite><a href="https://drive.google.com/file/d/1dUeODT3PVM1-V6mBb_-kETci0TJgjfra/view?usp=sharing">Invariance of state-dependent baselines in Vanilla Policy Gradient</a></cite><br>
+          Proof of baseline invariance in RL, October 8, 2025.
         </p>
 
         <p>
